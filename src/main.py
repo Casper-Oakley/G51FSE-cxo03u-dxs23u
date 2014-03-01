@@ -1,8 +1,5 @@
 import pygame
 from window import Window
-from pygame.locals import *
-from random import *
-import math
 
 def main():
 	pygame.init()
@@ -11,4 +8,4 @@ def main():
 	mainWindow.setWindow()
 	mainWindow.gameLoop()
 
-main()
+if __name__ == '__main__': main()
