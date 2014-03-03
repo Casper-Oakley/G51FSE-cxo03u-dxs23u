@@ -5,6 +5,8 @@ class World:
 	currentX=0
 	currentY=0
 
+	def __init__(self,screen):
+		self.loadLevel(screen)
 	def loadLevel(self, screen):
 		self.backgroundImage=pygame.image.load("../assets/images/world/Pleiades_large.jpg")
 		self.character = Character()
