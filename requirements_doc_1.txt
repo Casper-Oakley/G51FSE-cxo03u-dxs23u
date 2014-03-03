@@ -1,0 +1,92 @@
+Functional Req:
+
+1. Main Window
+	1.1 Window size: 640x480
+	1.2 Window title: Game title
+	1.3 Two main frames: main interactive game and menu options
+		1.3.a Menu will consist of 3 buttons, play, options, high scores
+			1.3.a.I buttons will light up on rollover or selection
+			1.3.a.II Buttons will be mouse clickable and keyboard interactable
+		1.3.b menu will have a background and title
+2. Main game
+	2.1 Starts with loaded levels
+		2.1.a Character in centre of screen standing on the ground
+		2.1.b HUD loaded
+			2.1.b.I contains lives, ammo, score, pause button
+			2.1.b.II HUD should be 48px tall, from the top
+			2.1.b.III HUD should be 80% translucent
+			2.1.b.IV font should be consistent with font scheme for rest of game
+		2.1.c. No enemies should load on the screen at start
+		2.1.d. Whole level should be loaded at once???(Casper reckons he can do procedural generation as we go along)
+			2.1.d.I Generated on level load
+			2.1.d.II Enemies should not begin to move until they are within 64px of the view area.
+	2.2 level consists of ground with gaps
+		2.2.a generate only the level specific ground type
+			2.2.a.I level generation needs to take altered jump distances into account (jelly)
+			2.2.a.II also for ice physics
+		2.2.b gaps must be less than max jump distance
+	2.3 Level should have a maximum length
+		2.3.a depends on difficulty???
+		2.3.b requires testing to find good length
+	2.4 Each game should consist of 3 levels, 1 of each type of level
+		2.4.a the 3 types of level are ice, jelly and chainsaws
+			2.4.a.I each type of level has level specific blocks with special behaviour, enemies and a boss
+			2.4.a.II the backgrounds and floor should change tile set to match the level theme
+		2.4.b An ice type level.
+			2.4.b.I Floor is mostly made of ice blocks
+			2.4.b.II enemies are Yeti, Ice ninja
+			2.4.b.III Boss is <?????>
+		2.4.c A Jelly type level
+			2.4.c.I Floor is mostly made of jelly blocks
+			2.4.c.II Enemies are jellyfish, slimes
+			2.4.c.III Boss is <?????>
+		2.4.d A chainsaw type level
+			2.4.d.I Floor is normal blocks
+			2.4.d.II Enemies are circular saws, flying chainsaws and robots with chainsaws
+			2.4.d.III Boss is <?????>
+		2.4.e Boss must appear at end of level
+			2.4.e.I must have solid floor
+			2.4.e.II on killing boss, next level is loaded.
+			
+		
+3. Main Character
+	3.1 control
+		3.1.a The character should be moved with the W, A and D Keys
+			3.1.a.I depressing the A key accelerates by 0.5px/s^2 to the left
+			3.1.a.II depressing the D key accelerates by 0.5px/s^2 to the right
+  			3.1.a.III when neither key is pressed, the character decelerates by 1px/s^2 
+			3.1.a.IV when both A and D are pressed, its is the same as neither being pressed
+			3.1.a.V when the W key is pressed and the character is on the ground, he will accelerate 10px/s^2 upwards
+			3.1.a.VI Gravity is 1px/s^2 downwards
+		3.1.b Aiming and shooting is controlled by the mouse 
+			3.1.b.I the gun will aim from the players position towards the position of the mouse pointer
+			3.1.b.I when the left mouse button is pressed, the gun is fired and the ammo depletes by 1
+		3.1.c the enter key should pause the game
+			3.1.c.I the pause menu should display the buttons "unpause", "restart" and "quit"
+	3.2 Size, shape and appearance
+	3.3 Basic attacks
+	3.4 Power ups
+	3.5 Power downs
+	3.6 Death conditions
+	3.7 Scoring
+	
+	
+4. Enemies
+	4.1 Each world should have 3 types of enemy: static, ground, flying.
+	//types of enemy behaviour
+	
+5. Blocks
+	5.1 Normal
+	5.2 Ice
+	5.3 Jelly
+	
+6. Boss
+		
+7. Sounds
+
+Non Functional
+
+1.
+
+2. Main game
+	2.1 HUD 

@@ -25,16 +25,15 @@ class Character:
 		self.charArmImageRot = self.charArmImageMaster
 
 	def draw(self,screen):
-		self.applyGravity()
 		self.aimAndDrawArm(screen)
 		for i in range(len(self.bulletList)):
 			self.bulletList[i].move()
 			self.bulletList[i].draw(screen)
 		screen.blit(self.charImage,(self.currentX,self.currentY))
 
-	def applyGravity(self):
-		if self.currentY>200:
-			self.currentY=200
+	def applyGravity(self,currentLow):
+		if self.currentY>currentLow-self.charImage.get_height():
+			self.currentY=currentLow-self.charImage.get_height()
 			self.vSpeed = 0
 			self.isJump = False
 		else:
