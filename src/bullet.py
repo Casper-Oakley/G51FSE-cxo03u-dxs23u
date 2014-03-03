@@ -15,6 +15,7 @@ class Bullet:
 
 	def load(self,screen):
 		self.image=pygame.image.load("../assets/images/other/bullet.gif").convert()
+		self.draw(screen)
 
 	def move(self):
 		self.x+=self.speed*math.cos(math.radians(self.angle))

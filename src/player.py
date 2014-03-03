@@ -27,7 +27,7 @@ class Character:
 	def draw(self,screen):
 		self.applyGravity()
 		self.aimAndDrawArm(screen)
-		for i in range(len(self.bulletList)-1):
+		for i in range(len(self.bulletList)):
 			self.bulletList[i].move()
 			self.bulletList[i].draw(screen)
 		screen.blit(self.charImage,(self.currentX,self.currentY))
@@ -57,10 +57,9 @@ class Character:
 		screen.blit(self.charArmImageRot,(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)), self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle))))
 
 	def shoot(self,screen):
-		tempBullet = Bullet(self.currentX+30-self.ab+26*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+26*math.sin(math.radians(-self.angle)),-self.angle,screen)
+		tempBullet = Bullet(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle)),-self.angle,screen)
 		self.bulletList.append(tempBullet)
 
 	def mousePress(self,key,screen):
 		if key[0] == 1:
-			print "wat"
 			self.shoot(screen)
