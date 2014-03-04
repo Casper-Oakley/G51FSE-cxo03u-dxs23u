@@ -35,7 +35,7 @@ class World:
 	def worldUpdate(self):
 		self.currentX-=1
 		self.character.applyGravity(self.levelList[self.character.currentX/64].y)
-		print self.levelList[self.character.currentX/64].y
+		print self.levelList[self.character.currentX/64].x
 		for i in range(len(self.enemy1List)):
 			self.enemy1List[i].move()
 
@@ -47,31 +47,28 @@ class World:
 	def genLevel(self,levelsize,screen):
 		self.levelList=[]
 		random.seed()
-		for i in range(12):
+		levelBuff = 12
+		for i in range(levelBuff):
 			if i==0:
 				blockTemp = Levelblock(i*64,480-4*12,2,0)
 				self.levelList.append(blockTemp)
 			else:
-				yval = self.levelList[i-1].y+random.randint(0,1)*12-6
-				if yval>444:
-					yval-=72
+				yval=480-48*(1+(i/12))
 				blockTemp = Levelblock(i*64,yval,5,0)
 				self.levelList.append(blockTemp)
-		for i in range(12,levelsize-12):
-			yval = self.levelList[i-1].y+random.randint(0,1)*12-6
-			if yval>444:
-				yval-=72
-			blockTemp = Levelblock(11*64,yval,5,0)
+		for i in range(levelBuff,levelsize-levelBuff-1):
+			yval=480-48*(i/12)
+			blockTemp = Levelblock(10*64,yval,5,0)
 			self.levelList.append(blockTemp)
-		for i in range(13):
+		for i in range(levelBuff):
 			self.levelList[i].load(screen)
 
 
-
 	def drawBlocksOnScreen(self,screen):
+		levelBuff=12
 		if self.levelList[0].x+self.levelList[0].imageTop.get_width()<0:
 			self.levelList.pop(0)
-			self.levelList[11].load(screen)
-		for i in range(12):
+			self.levelList[levelBuff-1].load(screen)
+		for i in range(levelBuff):
 			self.levelList[i].move()
 			self.levelList[i].draw(screen)
