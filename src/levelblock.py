@@ -22,12 +22,12 @@ class Levelblock:
 		self.imageGround=pygame.image.load("../assets/images/world/block_normal_ground.png").convert()
 		self.isGen = True
 
-	def draw(self,screen):
-		screen.blit(self.imageTop,(self.x,self.y))
-		i = self.y
+	def draw(self,screen,x,y):
+		screen.blit(self.imageTop,(x,y))
+		i = y
 		while i <= 480:
 			i+=self.imageGround.get_height()
-			screen.blit(self.imageGround,(self.x,i))
+			screen.blit(self.imageGround,(x,i))
 
 	def move(self):
 		self.x-=self.speed
