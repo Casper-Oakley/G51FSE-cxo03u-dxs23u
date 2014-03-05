@@ -9,11 +9,9 @@ class Enemy1:
 		#note angle is in deg
 		self.x=x
 		self.y=y
-		self.load(screen)
 
 	def load(self,screen):
 		self.image=pygame.image.load("../assets/images/enemy/enemy1.png").convert()
-		self.draw(screen)
 
 	def move(self):
 		self.x+=1

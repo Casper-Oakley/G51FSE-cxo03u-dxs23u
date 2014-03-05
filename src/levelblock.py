@@ -8,11 +8,13 @@ class Levelblock:
 	y=0
 	speed=1
 	isGen = False
+	enemy1ID=-1
 	btype=BLOCK_NORMAL
 
-	def __init__(self,x,y,speed,btype):
+	def __init__(self,x,y,speed,btype,enemy1ID):
 		self.x=x
 		self.y=y
+		self.enemy1ID=enemy1ID
 		self.speed=speed
 
 	def load(self,screen):

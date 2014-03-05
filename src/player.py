@@ -6,7 +6,7 @@ from pygame.locals import *
 class Character:
 	currentX=80
 	currentY=0
-	gravity = 1.0
+	gravity = 1.2
 	vSpeed = 0
 	ammoAmount = 0
 	ammoType = "normal"
@@ -42,7 +42,7 @@ class Character:
 	
 	def jump(self):
 		if self.isJump == False:
-			self.vSpeed = -10
+			self.vSpeed = -20
 			self.isJump = True
 
 	def keyPress(self,key):
