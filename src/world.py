@@ -13,7 +13,7 @@ class World:
 
 	def loadLevel(self, screen):
 		self.backgroundImage=pygame.image.load("../assets/images/world/Pleiades_large.jpg")
-		self.genLevel(20,screen)
+		self.genLevel(50,screen)
 		self.character = Character()
 		self.drawLevel(screen)
 
@@ -34,7 +34,10 @@ class World:
 
 	def worldUpdate(self):
 		self.currentX-=1
-		self.character.applyGravity(self.levelList[0].y)
+		if self.levelList[0].x +self.levelList[0].size*64> 80 + self.character.charImage.get_width()/2:
+			self.character.applyGravity(self.levelList[0].y)
+		else:
+			self.character.applyGravity(self.levelList[1].y)
 		for i in range(len(self.enemy1List)):
 			self.enemy1List[i].move()
 
