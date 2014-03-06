@@ -11,6 +11,7 @@ class Character:
 	ammoAmount = 0
 	ammoType = "normal"
 	bulletList = []
+	animIndex = 0
 
 	angle = 0
 
@@ -18,7 +19,14 @@ class Character:
 		self.loadChar()
 
 	def loadChar(self):
-		self.charImage=pygame.image.load("../assets/images/character/charRen1a.png").convert()
+		self.charRunCycleList = []
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1a.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1b.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1c.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1d.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1e.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1f.png").convert_alpha())
+		self.charImage=self.charRunCycleList[0]
 		self.charImage.set_colorkey((255,0,255))
 		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm1.png").convert()
 		self.charArmImageMaster.set_colorkey((255,0,255))
@@ -29,7 +37,9 @@ class Character:
 		for i in range(len(self.bulletList)):
 			self.bulletList[i].move()
 			self.bulletList[i].draw(screen)
+		self.charImage = self.charRunCycleList[self.animIndex]
 		screen.blit(self.charImage,(self.currentX,self.currentY))
+		self.animIndex = (self.animIndex+1)%len(self.charRunCycleList)
 
 	def applyGravity(self,currentLow):
 		if self.currentY>currentLow-self.charImage.get_height():
