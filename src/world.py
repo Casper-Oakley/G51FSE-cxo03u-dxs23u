@@ -48,7 +48,7 @@ class World:
 	def genLevel(self,levelsize,screen):
 		self.levelList=[]
 		random.seed()
-		blockTemp = Levelplat(screen,1,200,12)
+		blockTemp = Levelplat(screen,1,200,12,0)
 		self.levelList.append(blockTemp)
 		self.levelList[0].loadPlatform(screen)
 		for i in range(1,levelsize):
@@ -57,7 +57,7 @@ class World:
 				yRan += 100
 			elif yRan > 480:
 				yRan -= 100
-			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12))
+			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12),0)
 			self.levelList.append(blockTemp)
 		xRange=0
 		for i in range(5):
