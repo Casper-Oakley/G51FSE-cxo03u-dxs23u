@@ -12,7 +12,7 @@ class World:
 		self.loadLevel(screen)
 
 	def loadLevel(self, screen):
-		self.backgroundImage=pygame.image.load("../assets/images/world/Pleiades_large.jpg")
+		self.backgroundImage=pygame.image.load("../assets/images/world/IceBackground.png")
 		self.genLevel(50,screen)
 		self.character = Character()
 		self.drawLevel(screen)
