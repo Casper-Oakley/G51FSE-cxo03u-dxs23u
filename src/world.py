@@ -6,6 +6,7 @@ from levelPlat import Levelplat
 class World:
 	currentX=0
 	currentY=0
+	score=10000
 	enemy1List=[]
 
 	def __init__(self,screen):
@@ -41,6 +42,7 @@ class World:
 		for i in range(len(self.enemy1List)):
 			self.enemy1List[i].move()
 		self.bulletCollide()
+		self.score+=1
 
 	def genEnemy1(self,screen,x,y):
 		tempEn = Enemy1(x,y,screen)
@@ -65,7 +67,7 @@ class World:
 				yRan -= 100
 			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12),random.randint(0,4),14)
 			self.levelList.append(blockTemp)
-			blockTemp = Levelplat(screen,0,530,random.randint(2,4),0,14)
+			blockTemp = Levelplat(screen,0,530,random.randint(2,4+min(self.score/1000,3)),0,14)
 			self.levelList.append(blockTemp)
 			i+=2
 		xRange=0
@@ -92,6 +94,8 @@ class World:
 			for j in range(5):
 				for k in self.levelList[j].enemyList:
 					if i.rect1.colliderect(k.rect1):
-						self.character.bulletList.remove(i)
+						if len(self.character.bulletList)>0:
+							self.character.bulletList.remove(i)
 						k.isDead = True
 						k.kill()
+						self.score+=50

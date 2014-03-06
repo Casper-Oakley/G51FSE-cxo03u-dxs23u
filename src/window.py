@@ -1,5 +1,6 @@
 import pygame
 from world import World
+from hud import Hud
 from pygame.locals import *
 
 
@@ -15,6 +16,7 @@ class Window:
 		self.screen.fill(self.backgroundColor)
 		pygame.key.set_repeat(1,1)
 		self.screen.set_colorkey(self.backgroundColor)
+		self.hud = Hud()
 		self.world = World(self.screen)
 	def gameLoop(self):
 		while self.exiting == False:
@@ -29,6 +31,7 @@ class Window:
 		self.screen.fill(self.backgroundColor)
 		if self.inLevel:
 			self.world.drawLevel(self.screen)
+			self.hud.drawHUD(self.screen,self.world.score)
 		else:
 			pygame.quit()
 
