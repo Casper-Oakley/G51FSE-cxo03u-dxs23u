@@ -5,12 +5,14 @@ class Levelplat:
 	x=0
 	y=0
 	size=0
+	nEnemy1=0
 	platList=[]
 
-	def __init__(self,screen,x,y,size):
+	def __init__(self,screen,x,y,size,nEnemy1):
 		self.x=x
 		self.y=y
 		self.size=size
+		self.nEnemy1=nEnemy1
 
 	def loadPlatform(self,screen):
 		for i in range(self.size):

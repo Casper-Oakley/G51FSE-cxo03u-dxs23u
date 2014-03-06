@@ -57,7 +57,7 @@ class World:
 				yRan += 100
 			elif yRan > 480:
 				yRan -= 100
-			blockTemp = Levelplat(screen,0,yRan,12)
+			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12))
 			self.levelList.append(blockTemp)
 		xRange=0
 		for i in range(5):
