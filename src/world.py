@@ -13,7 +13,7 @@ class World:
 
 	def loadLevel(self, screen):
 		self.backgroundImage=pygame.image.load("../assets/images/world/IceBackground.png")
-		self.genLevel(50,screen)
+		self.genLevel(500,screen)
 		self.character = Character()
 		self.drawLevel(screen)
 
@@ -40,6 +40,7 @@ class World:
 			self.character.applyGravity(self.levelList[1].y)
 		for i in range(len(self.enemy1List)):
 			self.enemy1List[i].move()
+		self.bulletCollide()
 
 	def genEnemy1(self,screen,x,y):
 		tempEn = Enemy1(x,y,screen)
@@ -48,17 +49,25 @@ class World:
 	def genLevel(self,levelsize,screen):
 		self.levelList=[]
 		random.seed()
-		blockTemp = Levelplat(screen,1,200,12,0)
+		blockTemp = Levelplat(screen,1,200,12,0,14)
+		self.levelList.append(blockTemp)
+		blockTemp = Levelplat(screen,0,530,2,0,14)
 		self.levelList.append(blockTemp)
 		self.levelList[0].loadPlatform(screen)
-		for i in range(1,levelsize):
-			yRan = self.levelList[i-1].y+random.randint(-100,100)
+		i=2
+		while i<levelsize:
+		#for i in range(2,levelsize):
+			yRan = self.levelList[i-2].y+random.randint(-100,100)
+			print self.levelList[i-2].y
 			if yRan < 200:
 				yRan += 100
 			elif yRan > 480:
 				yRan -= 100
-			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12),0)
+			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12),random.randint(0,4),14)
 			self.levelList.append(blockTemp)
+			blockTemp = Levelplat(screen,0,530,random.randint(2,4),0,14)
+			self.levelList.append(blockTemp)
+			i+=2
 		xRange=0
 		for i in range(5):
 			self.levelList[i].x = xRange
@@ -67,6 +76,7 @@ class World:
 
 	def drawBlocksOnScreen(self,screen):
 		if self.levelList[0].x+self.levelList[0].size*64<0:
+			self.levelList[0].enemyList=[]
 			self.levelList.pop(0)
 			self.levelList[4].loadPlatform(screen)
 			xRange = 0
@@ -76,3 +86,12 @@ class World:
 		for i in range(5):
 			self.levelList[i].drawBlocks(screen)
 			self.levelList[i].moveBlocks()
+
+	def bulletCollide(self):
+		for i in self.character.bulletList:
+			for j in range(5):
+				for k in self.levelList[j].enemyList:
+					if i.rect1.colliderect(k.rect1):
+						self.character.bulletList.remove(i)
+						k.isDead = True
+						k.kill()

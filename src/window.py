@@ -22,7 +22,7 @@ class Window:
 			self.world.worldUpdate()
 			self.draw()
 			pygame.display.flip()
-			self.Clock.tick(30)
+			self.Clock.tick(40)
 			pygame.display.set_caption(str(self.Clock.get_fps()))
 		pygame.quit()
 	def draw(self):

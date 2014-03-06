@@ -6,7 +6,7 @@ from pygame.locals import *
 class Character:
 	currentX=80
 	currentY=0
-	gravity = 1.2
+	gravity = 1.6
 	vSpeed = 0
 	ammoAmount = 0
 	ammoType = "normal"
@@ -33,6 +33,7 @@ class Character:
 		self.charArmImageRot = self.charArmImageMaster
 
 	def draw(self,screen):
+		self.isBulletOut()
 		self.aimAndDrawArm(screen)
 		for i in range(len(self.bulletList)):
 			self.bulletList[i].move()
@@ -52,7 +53,7 @@ class Character:
 	
 	def jump(self):
 		if self.isJump == False:
-			self.vSpeed = -20
+			self.vSpeed = -24
 			self.isJump = True
 
 	def keyPress(self,key):
@@ -72,3 +73,8 @@ class Character:
 	def mousePress(self,key,screen):
 		if key[0] == 1:
 			self.shoot(screen)
+
+	def isBulletOut(self):
+		for i in self.bulletList:
+			if i.x > 640 or i.x < 0 or i.y > 480 or i.y < 0:
+				self.bulletList.remove(i)
