@@ -12,6 +12,9 @@ class Character:
 	ammoType = "normal"
 	bulletList = []
 	animIndex = 0
+	lives=3
+	invulnTimer=0
+	isInvuln=False
 
 	angle = 0
 
@@ -37,12 +40,23 @@ class Character:
 
 	def draw(self,screen):
 		self.isBulletOut()
-		self.aimAndDrawArm(screen)
+		#self.aimAndDrawArm(screen)
 		for i in range(len(self.bulletList)):
 			self.bulletList[i].move()
 			self.bulletList[i].draw(screen)
 		self.charImage = self.charRunCycleList[self.animIndex]
-		screen.blit(self.charImage,(self.currentX,self.currentY))
+		if not self.isInvuln:
+			self.aimAndDrawArm(screen)
+			screen.blit(self.charImage,(self.currentX,self.currentY))
+		elif self.invulnTimer%16<8 and self.isInvuln:
+			self.aimAndDrawArm(screen)
+			screen.blit(self.charImage,(self.currentX,self.currentY))
+			self.invulnTimer+=1
+		else:
+			self.invulnTimer+=1
+		if self.invulnTimer > 60 and self.isInvuln:
+			self.isInvuln=False
+			self.invulnTimer=0
 		self.animIndex = (self.animIndex+1)%len(self.charRunCycleList)
 
 	def applyGravity(self,currentLow):
@@ -68,7 +82,7 @@ class Character:
 		self.angle=-math.degrees(math.atan2((pygame.mouse.get_pos()[1]-self.currentY-64),(pygame.mouse.get_pos()[0]-self.currentX-64)))
 		self.charArmImageRot = pygame.transform.rotate(self.charArmImageMaster,self.angle)
 		self.ab = (24*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-24
-		screen.blit(self.charArmImageRot,(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)), self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle))))
+		screen.blit(self.charArmImageRot,(self.currentX+35-self.ab+30*math.cos(math.radians(-self.angle)), self.currentY+40-self.ab+30*math.sin(math.radians(-self.angle))))
 
 	def shoot(self,screen):
 		tempBullet = Bullet(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle)),-self.angle,screen)
