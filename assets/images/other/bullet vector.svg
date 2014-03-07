@@ -28,10 +28,10 @@
      inkscape:cx="7.2154491"
      inkscape:cy="4.7732971"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5840-1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
@@ -76,6 +76,65 @@
          id="path5820-5"
          style="fill:#ffff00;fill-opacity:1;stroke:none"
          sodipodi:type="arc" />
+    </g>
+    <g
+       transform="translate(10.239375,-4.3148683e-4)"
+       id="g5840-1"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\other\bulletBasic.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.12962962,0,0,0.13461539,-10.74074,1021.8519)"
+         d="m 160,189.50504 c 0,20.51343 -17.26901,37.14285 -38.57143,37.14285 -21.30241,0 -38.571427,-16.62942 -38.571427,-37.14285 0,-20.51344 17.269017,-37.14286 38.571427,-37.14286 21.30242,0 38.57143,16.62942 38.57143,37.14286 z"
+         sodipodi:ry="37.142857"
+         sodipodi:rx="38.57143"
+         sodipodi:cy="189.50504"
+         sodipodi:cx="121.42857"
+         id="path5820-7"
+         style="fill:#ff6600;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         inkscape:export-filename="\\store\dxs23u$\Private\fseG51\git\assets\images\other\bulletFired.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         transform="matrix(0.12962962,0,0,0.13461539,-0.10492629,1021.7725)"
+         d="m 160,189.50504 a 38.57143,37.142857 0 1 1 -77.142857,0 38.57143,37.142857 0 1 1 77.142857,0 z"
+         sodipodi:ry="37.142857"
+         sodipodi:rx="38.57143"
+         sodipodi:cy="189.50504"
+         sodipodi:cx="121.42857"
+         id="path5820-7-0"
+         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         inkscape:export-filename="\\store\dxs23u$\Private\fseG51\git\assets\images\other\bulletFirec.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         transform="matrix(0.12962962,0,0,0.13461539,10.451516,1021.9313)"
+         d="m 160,189.50504 a 38.57143,37.142857 0 1 1 -77.142857,0 38.57143,37.142857 0 1 1 77.142857,0 z"
+         sodipodi:ry="37.142857"
+         sodipodi:rx="38.57143"
+         sodipodi:cy="189.50504"
+         sodipodi:cx="121.42857"
+         id="path5820-7-4"
+         style="fill:#ffff00;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         inkscape:export-filename="\\store\dxs23u$\Private\fseG51\git\assets\images\other\bulletFireb.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <path
+         transform="matrix(0.12962962,0,0,0.13461539,21.166701,1021.7725)"
+         d="m 160,189.50504 a 38.57143,37.142857 0 1 1 -77.142857,0 38.57143,37.142857 0 1 1 77.142857,0 z"
+         sodipodi:ry="37.142857"
+         sodipodi:rx="38.57143"
+         sodipodi:cy="189.50504"
+         sodipodi:cx="121.42857"
+         id="path5820-7-8"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         inkscape:export-filename="\\store\dxs23u$\Private\fseG51\git\assets\images\other\bulletFirea.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
     </g>
   </g>
 </svg>

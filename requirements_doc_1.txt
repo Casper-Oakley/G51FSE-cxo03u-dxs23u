@@ -90,3 +90,6 @@ Non Functional
 
 2. Main game
 	2.1 HUD 
+
+The Title of the game must include atleast 13 words that rhyme with 'Joe'
+The Title of the game can never decrease in length during development.

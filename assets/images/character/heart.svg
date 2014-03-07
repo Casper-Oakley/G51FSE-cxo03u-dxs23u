@@ -14,7 +14,7 @@
    id="svg3100"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 3">
+   sodipodi:docname="heart.svg">
   <defs
      id="defs3" />
   <sodipodi:namedview
@@ -55,13 +55,14 @@
        id="g3927"
        inkscape:export-filename="H:\Private\fseG51\git\assets\images\character\heartIcon.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-ydpi="90"
+       transform="matrix(0.28187379,0,0,0.28187379,-755.07597,279.31937)">
       <path
          sodipodi:nodetypes="sscsscs"
          inkscape:connector-curvature="0"
          id="path3106"
          d="m -1016.4019,288.36221 c -17.4008,0 -31.7465,14.8058 -31.5048,32.20496 0.4603,33.14593 37.8168,33.91788 52.50729,64.84534 18.4103,-31.37582 53.36364,-36.91887 53.9229,-64.84534 0.34842,-17.39735 -14.10401,-32.20496 -31.50483,-32.20496 -8.41487,0 -16.06675,3.30907 -21.7179,8.68411 -5.65086,-5.37291 -13.28966,-8.68411 -21.70266,-8.68411 z"
-         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:7.08661417;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:7.08661413;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
