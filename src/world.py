@@ -9,6 +9,7 @@ class World:
 	score=0
 	enemy1List=[]
 	speed=8
+	isGame=True
 
 	def __init__(self,screen):
 		self.loadLevel(screen)
@@ -130,4 +131,4 @@ class World:
 			self.character.lives-=1
 		elif not self.character.isInvuln:
 			print "YOU LOST"
-			pygame.quit()
+			self.isGame=False
