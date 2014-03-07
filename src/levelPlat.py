@@ -4,15 +4,13 @@ from enemy1 import Enemy1
 
 class Levelplat:
 
-	def __init__(self,screen,x,y,size,nEnemy1,speed):
-		self.speed=speed
+	def __init__(self,screen,x,y,size,nEnemy1):
 		self.x=0
 		self.y=0
-		self.size=0
+		self.size=size
 		self.nEnemy1=0
 		self.x=x
 		self.y=y
-		self.size=size
 		self.nEnemy1=nEnemy1
 		self.platList=[0]*12
 		self.enemyList=[]
@@ -38,5 +36,5 @@ class Levelplat:
 			self.platList[i].draw(screen,counter*64+self.x,self.y)
 			counter+=1
 
-	def moveBlocks(self):
-		self.x-=self.speed
+	def moveBlocks(self,speed):
+		self.x-=speed

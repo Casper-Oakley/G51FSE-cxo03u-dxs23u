@@ -31,6 +31,7 @@ class Character:
 		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm1.png").convert()
 		self.charArmImageMaster.set_colorkey((255,0,255))
 		self.charArmImageRot = self.charArmImageMaster
+		self.rect1 = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
 
 	def draw(self,screen):
 		self.isBulletOut()
@@ -50,6 +51,7 @@ class Character:
 		else:
 			self.vSpeed += self.gravity
 			self.currentY += self.vSpeed
+			self.rect1.y=self.currentY
 	
 	def jump(self):
 		if self.isJump == False:
