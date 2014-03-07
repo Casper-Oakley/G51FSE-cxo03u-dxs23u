@@ -22,7 +22,7 @@ class Levelplat:
 			blockTemp = Levelblock(self.x+i*64,self.y,2,0,-1)
 			if self.nEnemy1 > 0 and random.randint(1,self.size) > 8:
 				self.nEnemy1-=1
-				tempEnemy=Enemy1(self.x+i*64,self.y-64,screen)
+				tempEnemy=Enemy1(self.x+i*64,self.y-96,screen)
 				blockTemp.enemy1ID=len(self.enemyList)
 				tempEnemy.load(screen)
 				self.enemyList.append(tempEnemy)
@@ -34,7 +34,7 @@ class Levelplat:
 		counter = 0
 		for i in range(self.size):
 			if self.platList[i].enemy1ID >= 0:
-				self.enemyList[self.platList[i].enemy1ID].draw(screen,i*64+self.x,self.y-60)
+				self.enemyList[self.platList[i].enemy1ID].draw(screen,i*64+self.x,self.y-96)
 			self.platList[i].draw(screen,counter*64+self.x,self.y)
 			counter+=1
 

@@ -26,10 +26,12 @@ class Character:
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1d.png").convert_alpha())
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1e.png").convert_alpha())
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1f.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1e.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1d.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1c.png").convert_alpha())
+		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1b.png").convert_alpha())
 		self.charImage=self.charRunCycleList[0]
-		self.charImage.set_colorkey((255,0,255))
-		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm1.png").convert()
-		self.charArmImageMaster.set_colorkey((255,0,255))
+		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm1.png").convert_alpha()
 		self.charArmImageRot = self.charArmImageMaster
 
 	def draw(self,screen):
