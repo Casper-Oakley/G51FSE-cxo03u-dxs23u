@@ -18,8 +18,8 @@ class Levelblock:
 		self.speed=speed
 
 	def load(self,screen):
-		self.imageTop=pygame.image.load("../assets/images/world/IceTop.png").convert()
-		self.imageGround=pygame.image.load("../assets/images/world/IceBottom.png").convert()
+		self.imageTop=pygame.image.load("../assets/images/world/IceTop-scale.png").convert()
+		self.imageGround=pygame.image.load("../assets/images/world/IceBottom-scale.png").convert()
 		self.isGen = True
 
 	def draw(self,screen,x,y):

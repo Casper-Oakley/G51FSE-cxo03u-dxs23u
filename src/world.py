@@ -112,7 +112,7 @@ class World:
 		for i in range(5):
 			if self.levelList[i].x > self.character.currentX+self.character.charImage.get_width():
 				if self.levelList[i-1].y>480 and self.character.currentY > self.levelList[i].y:
-					playerDeath()
+					self.playerDeath()
 				break
 	def playerDeath(self):
 		print "DEAD"
