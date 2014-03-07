@@ -3,11 +3,21 @@ import pygame
 class Hud:
 
 	def drawScore(self,screen,score):
-		scoreText=pygame.font.SysFont("helvetica",20,True,False)
+		scoreText=pygame.font.SysFont("Helvetica",20,True,False)
 		screen.blit(scoreText.render("score: "+str(score),1,(0,0,0)) ,(10,10))
 
 	def drawLife(self,screen,lives):
-		print "wat"
+		for i in range(lives):
+			screen.blit(self.lifeImage,(i*48+496,10))
 
-	def drawHUD(self,screen,score):
+	def drawHUD(self,screen,score,lives):
 		self.drawScore(screen,score)
+		self.drawLife(screen,lives)
+
+	def loadHUD(self,screen):
+		self.lifeImage=pygame.image.load("../assets/images/character/heartIcon.png").convert_alpha()
+
+	def restart(self,screen,score):
+		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
+		gameOver=pygame.font.SysFont("Helvetica",20,True,False)
+		screen.blit(gameOver.render("Game over! You earnt:"+str(score),1,(255,255,255)),(200,180))
