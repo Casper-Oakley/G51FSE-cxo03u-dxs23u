@@ -11,7 +11,7 @@ class Enemy1:
 
 	def load(self,screen):
 		self.sprite = pygame.sprite.Sprite()
-		self.image=pygame.image.load("../assets/images/enemy/enemy1.png").convert()
+		self.image=pygame.image.load("../assets/images/enemy/snowman.png").convert_alpha()
 		self.rect1 = pygame.Rect(self.x,self.y,self.image.get_width(),self.image.get_height())
 		#self.sprite.maskIm=pygame.mask.from_surface(self.image)
 
