@@ -71,11 +71,11 @@ class World:
 			yRan = self.levelList[i-2].y+random.randint(-100,100)
 			if yRan < 200:
 				yRan += 100
-			elif yRan > 480:
+			elif yRan > 430:
 				yRan -= 100
 			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12),random.randint(0,4))
 			self.levelList.append(blockTemp)
-			blockTemp = Levelplat(screen,0,530,random.randint(2+min(self.score/1000,2),4+min(self.score/1000,3)),0)
+			blockTemp = Levelplat(screen,0,530,random.randint(2+min(self.score/1000,2),4+min(self.score/500,3)),0)
 			self.levelList.append(blockTemp)
 			i+=2
 		xRange=0
@@ -112,6 +112,8 @@ class World:
 		for i in range(5):
 			for j in self.levelList[i].enemyList:
 				if j.rect1.colliderect(self.character.rect1):
+					j.isDead = True
+					j.kill()
 					self.playerDeath()
 	
 	def playerFall(self):
@@ -121,4 +123,11 @@ class World:
 					self.playerDeath()
 				break
 	def playerDeath(self):
-		print "DEAD"
+		if not self.character.isInvuln and self.character.lives>0:
+			self.speed=4
+			self.character.isInvuln=True
+			self.character.currentY = 20
+			self.character.lives-=1
+		elif not self.character.isInvuln:
+			print "YOU LOST"
+			pygame.quit()
