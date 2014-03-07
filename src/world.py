@@ -14,15 +14,19 @@ class World:
 		self.loadLevel(screen)
 
 	def loadLevel(self, screen):
-		self.backgroundImage=pygame.image.load("../assets/images/world/IceBackground.png")
-		self.genLevel(1000,screen)
+		self.backgroundImage=pygame.image.load("../assets/images/world/IceBackground.png").convert()
+		self.baseBackgroundImage=pygame.image.load(
+		"../assets/images/world/iceBackgroundBase.png").convert()
+		self.genLevel(500,screen)
 		self.character = Character()
 		self.drawLevel(screen)
 
 	def drawLevel(self, screen):
 		#self.genEnemy1(screen)
 		#draw background
+		screen.blit(self.baseBackgroundImage,(0,0))
 		screen.blit(self.backgroundImage,(self.currentX, self.currentY))
+		
 
 		#draw enemies
 		for i in range(len(self.enemy1List)):
@@ -35,7 +39,9 @@ class World:
 		self.drawBlocksOnScreen(screen)
 
 	def worldUpdate(self):
-		self.currentX-=1
+		self.currentX-=3
+		if self.currentX < -4000:#is completely off screen
+			self.currentX = 640
 		if self.levelList[0].x +self.levelList[0].size*64> 80 + self.character.charImage.get_width()/2:
 			self.character.applyGravity(self.levelList[0].y)
 		else:
