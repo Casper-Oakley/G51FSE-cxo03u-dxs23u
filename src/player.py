@@ -34,7 +34,7 @@ class Character:
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1c.png").convert_alpha())
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1b.png").convert_alpha())
 		self.charImage=self.charRunCycleList[0]
-		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm1.png").convert_alpha()
+		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm2.png").convert_alpha()
 		self.charArmImageRot = self.charArmImageMaster
 		self.rect1 = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
 
