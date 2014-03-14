@@ -15,7 +15,7 @@ class World:
 		self.loadLevel(screen)
 
 	def loadLevel(self, screen):
-		self.backgroundImage=pygame.image.load("../assets/images/world/IceBackground.png").convert()
+		self.backgroundImage=pygame.image.load("../assets/images/world/iceBackground.png").convert()
 		self.baseBackgroundImage=pygame.image.load(
 		"../assets/images/world/iceBackgroundBase.png").convert()
 		self.genLevel(500,screen)

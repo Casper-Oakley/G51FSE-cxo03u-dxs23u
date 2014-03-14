@@ -34,7 +34,7 @@ class Character:
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1c.png").convert_alpha())
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1b.png").convert_alpha())
 		self.charImage=self.charRunCycleList[0]
-		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm1.png").convert_alpha()
+		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm2.png").convert_alpha()
 		self.charArmImageRot = self.charArmImageMaster
 		self.rect1 = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
 
@@ -82,7 +82,11 @@ class Character:
 		self.angle=-math.degrees(math.atan2((pygame.mouse.get_pos()[1]-self.currentY-64),(pygame.mouse.get_pos()[0]-self.currentX-64)))
 		self.charArmImageRot = pygame.transform.rotate(self.charArmImageMaster,self.angle)
 		self.ab = (24*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-24
-		screen.blit(self.charArmImageRot,(self.currentX+35-self.ab+30*math.cos(math.radians(-self.angle)), self.currentY+40-self.ab+30*math.sin(math.radians(-self.angle))))
+		#xOffset = self.currentX+35-self.ab+30*math.cos(math.radians(-self.angle))
+		#yOffset = self.currentY+40-self.ab+30*math.sin(math.radians(-self.angle))
+		xOffset = -self.ab+30*math.cos(math.radians(-self.angle))+35
+		yOffset = -self.ab+30*math.sin(math.radians(-self.angle))+40
+		screen.blit(self.charArmImageRot,(self.currentX+xOffset,self.currentY+yOffset))
 
 	def shoot(self,screen):
 		tempBullet = Bullet(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle)),-self.angle,screen)
