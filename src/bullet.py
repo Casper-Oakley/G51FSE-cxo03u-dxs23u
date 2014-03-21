@@ -16,14 +16,17 @@ class Bullet(pygame.sprite.Sprite):
 
 	def load(self,screen):
 		#self.sprite = pygame.sprite.Sprite()
+		## Standard image loading and collision box setup
 		self.image=pygame.image.load("../assets/images/other/bulletBasic.png").convert_alpha()
 		self.rect1 = pygame.Rect(self.x,self.y,self.image.get_width(),self.image.get_height())
 		#self.sprite.mask=pygame.mask.from_surface(self.image)
 		self.draw(screen)
 
 	def move(self):
+		## Move self coordinates
 		self.x+=self.speed*math.cos(math.radians(self.angle))
 		self.y+=self.speed*math.sin(math.radians(self.angle))
+		## update collision rectangle
 		self.rect1.x=self.x
 		self.rect1.y=self.y
 
