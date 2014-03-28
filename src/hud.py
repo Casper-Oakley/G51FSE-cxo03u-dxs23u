@@ -14,9 +14,11 @@ class Hud:
 		self.drawScore(screen,score)
 		self.drawLife(screen,lives)
 
+	## Loads the images required by the HUD
 	def loadHUD(self,screen):
 		self.lifeImage=pygame.image.load("../assets/images/character/heartIcon.png").convert_alpha()
 
+	## On gameover, show the score.  
 	def restart(self,screen,score):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
 		gameOver=pygame.font.SysFont("Helvetica",20,True,False)
