@@ -15,6 +15,7 @@ class Character:
 	lives=3
 	invulnTimer=0
 	isInvuln=False
+	isJump = True
 
 	angle = 0
 
@@ -42,6 +43,11 @@ class Character:
 		self.charArmImageRot = self.charArmImageMaster
 		## Set collision box
 		self.rect1 = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
+		
+		## Sounds
+		self.laserSound = pygame.mixer.Sound("../assets/sounds/effects/laser.wav")
+		self.jumpSound = pygame.mixer.Sound("../assets/sounds/effects/jump.wav")
+		self.landSound = pygame.mixer.Sound("../assets/sounds/effects/land.wav")
 
 	def draw(self,screen):
 		## Update bullet list and draw bullets.
@@ -72,6 +78,9 @@ class Character:
 	def applyGravity(self,currentLow):
 		## if character is below the floor
 		if self.currentY > ( currentLow - self.charImage.get_height() ):
+			if (self.isJump == True):
+				## Sound effects
+				self.landSound.play()
 			## snap the character to the floor
 			self.currentY=currentLow-self.charImage.get_height()
 			## reset jumping and vspeed
@@ -81,13 +90,15 @@ class Character:
 			## otherwise, fall down
 			self.vSpeed += self.gravity
 			self.currentY += self.vSpeed
-			self.rect1.y=self.currentY
+			self.rect1.y = self.currentY
 	
 	def jump(self):
 		## Jump if not in the air.
 		if self.isJump == False:
 			self.vSpeed = -24
 			self.isJump = True
+			## Sound effects
+			self.jumpSound.play()
 
 	## Activate jumping.
 	def keyPress(self,key):
@@ -113,6 +124,8 @@ class Character:
 		tempBullet = Bullet(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle)),-self.angle,screen)
 		## add the bullet to the list.
 		self.bulletList.append(tempBullet)
+		## Play the bullet shoot sound
+		self.laserSound.play()
 	
 	## activate shooting.
 	def mousePress(self,key,screen):
