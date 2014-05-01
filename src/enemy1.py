@@ -12,7 +12,6 @@ class Enemy1:
 
 #load the image and generate a rectangle for the enemy
 	def load(self,screen):
-		self.sprite = pygame.sprite.Sprite()
 		self.image=pygame.image.load("../assets/images/enemy/snowman.png").convert_alpha()
 		self.enemyRectangle = pygame.Rect(self.x,self.y,self.image.get_width(),self.image.get_height())
 

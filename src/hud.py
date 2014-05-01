@@ -14,6 +14,7 @@ class Hud:
 		self.drawScore(screen,score)
 		self.drawLife(screen,lives)
 
+	## Loads the images required by the HUD
 	def loadHUD(self,screen):
 		self.lifeImage=pygame.image.load("../assets/images/character/heartIcon.png").convert_alpha()
 
