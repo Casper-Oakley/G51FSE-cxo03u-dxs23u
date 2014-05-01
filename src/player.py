@@ -4,23 +4,23 @@ from bullet import Bullet
 from pygame.locals import *
 
 class Character:
-	currentX=80
-	currentY=0
-	gravity = 1.6
-	vSpeed = 0
-	ammoAmount = 0
-	ammoType = "normal"
-	bulletList = []
-	animIndex = 0
-	lives=3
-	invulnTimer=0
-	isInvuln=False
-
-	angle = 0
 
 	def __init__(self):
+		self.currentX=80
+		self.currentY=0
+		self.gravity = 1.6
+		self.vSpeed = 0
+		self.ammoAmount = 0
+		self.ammoType = "normal"
+		self.bulletList = []
+		self.animIndex = 0
+		self.lives=3
+		self.invulnTimer=0
+		self.isInvuln=False
+		self.angle = 0
 		self.loadChar()
 
+#loads the images in the animation loop for the character and creates a hitbox
 	def loadChar(self):
 		self.charRunCycleList = []
 		self.charRunCycleList.append(pygame.image.load("../assets/images/character/charRen1a.png").convert_alpha())
@@ -36,8 +36,9 @@ class Character:
 		self.charImage=self.charRunCycleList[0]
 		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm2.png").convert_alpha()
 		self.charArmImageRot = self.charArmImageMaster
-		self.rect1 = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
+		self.charRectangle = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
 
+#draws the player and all the bullets onto the screen
 	def draw(self,screen):
 		self.isBulletOut()
 		#self.aimAndDrawArm(screen)
@@ -59,6 +60,7 @@ class Character:
 			self.invulnTimer=0
 		self.animIndex = (self.animIndex+1)%len(self.charRunCycleList)
 
+#moves the character based off gravity, taking into account if jumping
 	def applyGravity(self,currentLow):
 		if self.currentY>currentLow-self.charImage.get_height():
 			self.currentY=currentLow-self.charImage.get_height()
@@ -67,35 +69,40 @@ class Character:
 		else:
 			self.vSpeed += self.gravity
 			self.currentY += self.vSpeed
-			self.rect1.y=self.currentY
+			self.charRectangle.y=self.currentY
 	
+#jumps the character
 	def jump(self):
 		if self.isJump == False:
 			self.vSpeed = -24
 			self.isJump = True
 
+#recieves input and acts accordingly
 	def keyPress(self,key):
 		if key[K_w] == 1:
 			self.jump()
 
+#draws the arm such that it will face the mouse at it's location
 	def aimAndDrawArm(self,screen):
 		self.angle=-math.degrees(math.atan2((pygame.mouse.get_pos()[1]-self.currentY-64),(pygame.mouse.get_pos()[0]-self.currentX-64)))
 		self.charArmImageRot = pygame.transform.rotate(self.charArmImageMaster,self.angle)
+#ab represents the hypotenous
 		self.ab = (24*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-24
-		#xOffset = self.currentX+35-self.ab+30*math.cos(math.radians(-self.angle))
-		#yOffset = self.currentY+40-self.ab+30*math.sin(math.radians(-self.angle))
 		xOffset = -self.ab+30*math.cos(math.radians(-self.angle))+35
 		yOffset = -self.ab+30*math.sin(math.radians(-self.angle))+40
 		screen.blit(self.charArmImageRot,(self.currentX+xOffset,self.currentY+yOffset))
 
+#fires a bullet such that the bullet's start location and angle it moves at is from the arm
 	def shoot(self,screen):
 		tempBullet = Bullet(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle)),-self.angle,screen)
 		self.bulletList.append(tempBullet)
 
+#reads for mouse input
 	def mousePress(self,key,screen):
 		if key[0] == 1:
 			self.shoot(screen)
 
+#removes all bullets that are out of screen
 	def isBulletOut(self):
 		for i in self.bulletList:
 			if i.x > 640 or i.x < 0 or i.y > 480 or i.y < 0:
