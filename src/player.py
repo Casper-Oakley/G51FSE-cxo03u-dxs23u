@@ -4,24 +4,24 @@ from bullet import Bullet
 from pygame.locals import *
 
 class Character:
-	currentX=80
-	currentY=0
-	gravity = 1.6
-	vSpeed = 0
-	ammoAmount = 0
-	ammoType = "normal"
-	bulletList = []
-	animIndex = 0
-	lives=3
-	invulnTimer=0
-	isInvuln=False
-	isJump = True
-
-	angle = 0
 
 	def __init__(self):
+		self.currentX=80
+		self.currentY=0
+		self.gravity = 1.6
+		self.vSpeed = 0
+		self.ammoAmount = 0
+		self.ammoType = "normal"
+		self.bulletList = []
+		self.animIndex = 0
+		self.lives=3
+		self.invulnTimer=0
+		self.isInvuln=False
+		self.isJump = True
+		self.angle = 0
 		self.loadChar()
 
+#loads the images in the animation loop for the character and creates a hitbox
 	def loadChar(self):
 		## Load all the images for the characters run cycle
 		self.charRunCycleList = []
@@ -41,14 +41,13 @@ class Character:
 		self.charArmImageMaster=pygame.image.load("../assets/images/character/charArm2.png").convert_alpha()
 		## Initialise the arm which is rotaated on the fly.
 		self.charArmImageRot = self.charArmImageMaster
-		## Set collision box
-		self.rect1 = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
-		
+		self.charRectangle = pygame.Rect(self.currentX,self.currentY,self.charImage.get_width(),self.charImage.get_height())
 		## Sounds
 		self.laserSound = pygame.mixer.Sound("../assets/sounds/effects/laser.wav")
 		self.jumpSound = pygame.mixer.Sound("../assets/sounds/effects/jump.wav")
 		self.landSound = pygame.mixer.Sound("../assets/sounds/effects/land.wav")
 
+#draws the player and all the bullets onto the screen
 	def draw(self,screen):
 		## Update bullet list and draw bullets.
 		self.deleteOffscreenBullets()
@@ -75,6 +74,7 @@ class Character:
 			self.invulnTimer=0
 		
 
+#moves the character based off gravity, taking into account if jumping
 	def applyGravity(self,currentLow):
 		## if character is below the floor
 		if self.currentY > ( currentLow - self.charImage.get_height() ):
@@ -90,8 +90,9 @@ class Character:
 			## otherwise, fall down
 			self.vSpeed += self.gravity
 			self.currentY += self.vSpeed
-			self.rect1.y = self.currentY
+			self.charRectangle.y=self.currentY
 	
+#jumps the character
 	def jump(self):
 		## Jump if not in the air.
 		if self.isJump == False:
@@ -100,31 +101,28 @@ class Character:
 			## Sound effects
 			self.jumpSound.play()
 
-	## Activate jumping.
+#recieves input and acts accordingly
 	def keyPress(self,key):
 		if key[K_w] == 1:
 			self.jump()
 
+#draws the arm such that it will face the mouse at it's location
 	def aimAndDrawArm(self,screen):
 		## Set the rotation angle based on mouse position
 		self.angle=-math.degrees(math.atan2((pygame.mouse.get_pos()[1]-self.currentY-64),(pygame.mouse.get_pos()[0]-self.currentX-64)))
 		## Rotate the arm image
 		self.charArmImageRot = pygame.transform.rotate(self.charArmImageMaster,self.angle)
-		## perform some rather unpleasant maths to make the arm rotate around the characters shoulder properly.
-		self.ab = (72*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-72
-		#xOffset = self.currentX+35-self.ab+30*math.cos(math.radians(-self.angle))
-		#yOffset = self.currentY+40-self.ab+30*math.sin(math.radians(-self.angle))
-		xOffset = -self.ab+1*math.cos(math.radians(-self.angle))+4
-		yOffset = -self.ab+1*math.sin(math.radians(-self.angle))-14
+		## perform some rather unplesant maths to make the arm rotate around the characters shoulder properly.
+		self.ab = (24*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-24
+		xOffset = -self.ab+30*math.cos(math.radians(-self.angle))+35
+		yOffset = -self.ab+30*math.sin(math.radians(-self.angle))+40
 		## draw the rotated arm image in position
 		screen.blit(self.charArmImageRot,(self.currentX+xOffset,self.currentY+yOffset))
-		
+
+#fires a bullet such that the bullet's start location and angle it moves at is from the arm
 	def shoot(self,screen):
-		## create a new bullet based on the current angle of the arm. currently does not fire from gun.
-		self.ab = 0#(72*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-72
-		xOff = 42*math.cos(math.radians(-self.angle))+64+5
-		yOff = 42*math.sin(math.radians(-self.angle))+64-15
-		tempBullet = Bullet(self.currentX+xOff,self.currentY+yOff,-self.angle,screen)
+		## create a new bullet based on the current angle of the arm. currently does not fire form gun.
+		tempBullet = Bullet(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle)),-self.angle,screen)
 		## add the bullet to the list.
 		self.bulletList.append(tempBullet)
 		## Play the bullet shoot sound

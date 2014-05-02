@@ -18,8 +18,10 @@ class Hud:
 	def loadHUD(self,screen):
 		self.lifeImage=pygame.image.load("../assets/images/character/heartIcon.png").convert_alpha()
 
-	## On gameover, show the score.  
+#draws restart message
 	def restart(self,screen,score):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
 		gameOver=pygame.font.SysFont("Helvetica",20,True,False)
+		restartText=pygame.font.SysFont("Helvetica",24,True,False)
 		screen.blit(gameOver.render("Game over! You earnt:"+str(score),1,(255,255,255)),(200,180))
+		screen.blit(restartText.render("Press space to continue",1,(255,30,30)),(200,230))
