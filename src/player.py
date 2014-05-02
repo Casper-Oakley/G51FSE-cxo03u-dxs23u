@@ -113,16 +113,17 @@ class Character:
 		## Rotate the arm image
 		self.charArmImageRot = pygame.transform.rotate(self.charArmImageMaster,self.angle)
 		## perform some rather unplesant maths to make the arm rotate around the characters shoulder properly.
-		self.ab = (24*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-24
-		xOffset = -self.ab+30*math.cos(math.radians(-self.angle))+35
-		yOffset = -self.ab+30*math.sin(math.radians(-self.angle))+40
-		## draw the rotated arm image in position
+		self.ab = (72*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-72
+		xOffset = -self.ab+1*math.cos(math.radians(-self.angle))+3
+		yOffset = -self.ab+1*math.sin(math.radians(-self.angle))-15		## draw the rotated arm image in position
 		screen.blit(self.charArmImageRot,(self.currentX+xOffset,self.currentY+yOffset))
 
 #fires a bullet such that the bullet's start location and angle it moves at is from the arm
 	def shoot(self,screen):
 		## create a new bullet based on the current angle of the arm. currently does not fire form gun.
-		tempBullet = Bullet(self.currentX+30-self.ab+30*math.cos(math.radians(-self.angle)),self.currentY+45-self.ab+30*math.sin(math.radians(-self.angle)),-self.angle,screen)
+		xOff = 30*math.cos(math.radians(-self.angle))+64+3
+		yOff = 30*math.sin(math.radians(-self.angle))+64-15
+		tempBullet = Bullet(self.currentX+xOff,self.currentY+yOff,-self.angle,screen)
 		## add the bullet to the list.
 		self.bulletList.append(tempBullet)
 		## Play the bullet shoot sound
