@@ -44,7 +44,7 @@ class World:
 
 	def worldUpdate(self):
 		## Moves itself backwards to simulate the 
-		## character running forwars against the screen
+		## character running forwards against the screen
 		self.currentX-=3
 		## Loop background around
 		if self.currentX < -4000:#is completely off screen
@@ -71,6 +71,8 @@ class World:
 		## create an enemy1 (snowman)
 		tempEn = Enemy1(x,y,screen)
 		self.enemy1List.append(tempEn)
+		
+	
 
 	def genLevel(self,levelsize,screen):
 		self.levelList=[]
