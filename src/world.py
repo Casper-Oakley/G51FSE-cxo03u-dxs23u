@@ -66,7 +66,7 @@ class World:
 		## Move the enemies forward
 		for i in range(len(self.enemy1List)):
 			self.enemy1List[i].move()
-		self.score+=1
+		self.score+=int(self.speed/8)
 		self.speed+=0.01
 
 #generate an enemy and store it in the enemy list
@@ -144,6 +144,7 @@ class World:
 						k.isDead = True
 						k.kill()
 						self.score+=50
+						break
 
 #test if the player has collided with an enemy
 	def playerCollide(self):

@@ -24,4 +24,4 @@ class Hud:
 		gameOver=pygame.font.SysFont("Helvetica",20,True,False)
 		restartText=pygame.font.SysFont("Helvetica",24,True,False)
 		screen.blit(gameOver.render("Game over! You earnt:"+str(score),1,(255,255,255)),(200,180))
-		screen.blit(restartText.render("Press space to continue",1,(255,30,30)),(200,230))
+		screen.blit(restartText.render("Press space to retry",1,(255,30,30)),(190,230))
