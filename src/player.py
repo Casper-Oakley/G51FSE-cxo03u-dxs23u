@@ -59,11 +59,13 @@ class Character:
 		self.animIndex = (self.animIndex+1)%len(self.charRunCycleList) 
 		self.charImage = self.charRunCycleList[self.animIndex]
 		## Update the arm.
-		self.aimAndDrawArm(screen)
+		
 		## Draw the character. If the character is invulnerable, draw it blinking.
 		if not self.isInvuln:
+			self.aimAndDrawArm(screen)
 			screen.blit(self.charImage,(self.currentX,self.currentY))
 		elif self.invulnTimer%16<8 and self.isInvuln:
+			self.aimAndDrawArm(screen)
 			screen.blit(self.charImage,(self.currentX,self.currentY))
 			self.invulnTimer+=1
 		else:
