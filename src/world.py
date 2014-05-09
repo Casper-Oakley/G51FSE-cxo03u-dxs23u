@@ -5,24 +5,24 @@ from levelPlat import Levelplat
 
 class World:
 
-	def __init__(self,screen):
+	def __init__(self,screen,currentVolume):
 		self.currentX=0
 		self.currentY=0
 		self.score=0
 		self.enemy1List=[]
 		self.speed=8
 		self.isGame=True
-		self.loadLevel(screen)
+		self.loadLevel(screen,currentVolume)
 
 #on load method to generate a level inc all assets
-	def loadLevel(self, screen):
+	def loadLevel(self, screen, currentVolume):
 		## Standard image loading
 		self.backgroundImage=pygame.image.load("../assets/images/world/iceBackground.png").convert()
 		self.baseBackgroundImage=pygame.image.load(
 		"../assets/images/world/iceBackgroundBase.png").convert()
 		## Create level, character
 		self.genLevel(500,screen)
-		self.character = Character()
+		self.character = Character(currentVolume)
 		## Draw the level once
 		self.drawLevel(screen)
 

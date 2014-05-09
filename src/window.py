@@ -1,6 +1,7 @@
 import pygame
 from menu import Menu
 from options import Options
+from highscores import Highscores
 from world import World
 from hud import Hud
 from pygame.locals import *
@@ -11,11 +12,12 @@ class Window:
 	def __init__(self):
 		self.width=640
 		self.height=480
-		self.currentVolume=0
 		self.exiting = False
 		self.inGame = False
 		self.inMenu = True
 		self.inOptions = False
+		self.inHighscores = False
+		self.currentVolume = 1.0
 		self.backgroundColor = 255,0,255
 		self.Clock = pygame.time.Clock()
 		self.hud = Hud()
@@ -26,26 +28,35 @@ class Window:
 		pygame.key.set_repeat(1,1)
 		self.screen.set_colorkey(self.backgroundColor)
 		self.hud.loadHUD(self.screen)
-		self.currentVolume=pygame.mixer.music.get_volume()
 		self.loadMenu()
 
 	def loadMenu(self):
 		self.inGame = False
 		self.inMenu = True
 		self.inOptions = False
+		self.inHighscores = False
 		self.menu = Menu()
 
 	def loadOptions(self):
 		self.inGame = False
 		self.inMenu = False
 		self.inOptions = True
-		self.optionsMenu = Options()
+		self.inHighscores = False
+		self.optionsMenu = Options(self.currentVolume)
+
+	def loadHighscores(self):
+		self.inGame = False
+		self.inMenu = False
+		self.inOptions = False
+		self.inHighscores = True
+		self.highscoresMenu = Highscores()
 
 	def loadWorld(self):
 		self.inGame = True
 		self.inMenu = False
 		self.inOptions = False
-		self.world = World(self.screen)
+		self.inHighscores = False
+		self.world = World(self.screen,self.currentVolume)
 #main game loop, controls world and menu interaction, along with frame rate
 	def gameLoop(self):
 		pygame.display.set_caption("TITLE")
@@ -56,7 +67,6 @@ class Window:
 				self.inGame=self.world.isGame
 				#if game over
 				if not self.inGame:
-					print self.world.score
 					highscores = open("../highscores.txt","a")
 					highscores.write(str(self.world.score)+"\n");
 					highscores.close()
@@ -75,7 +85,9 @@ class Window:
 		elif self.inMenu:
 			self.menu.drawMenu(self.screen)
 		elif self.inOptions:
-			self.optionsMenu.drawMenu(self.screen)
+			self.optionsMenu.drawMenu(self.screen,self.currentVolume)
+		elif self.inHighscores:
+			self.highscoresMenu.drawMenu(self.screen)
 		else:
 			self.hud.restart(self.screen,self.world.score)
 
@@ -108,9 +120,8 @@ class Window:
 							self.loadWorld()
 						elif self.menu.optionsButton.isHighlight:
 							self.loadOptions()
-							print "hello2"
 						elif self.menu.highScoresButton.isHighlight:
-							print "hello3"
+							self.loadHighscores()
 					else:
 						self.menu.keyPress(key)
 				if event.type == pygame.MOUSEBUTTONDOWN:
@@ -119,9 +130,8 @@ class Window:
 						self.loadWorld()
 					elif self.menu.optionsButton.mousePress(pygame.mouse.get_pressed()):
 						self.loadOptions()
-						print "hello2"
 					elif self.menu.highScoresButton.mousePress(pygame.mouse.get_pressed()):
-						print "hello3"
+						self.loadHighscores()
 		#send simple input and recieve output from options
 		elif self.inOptions:
 			for event in pygame.event.get():
@@ -133,30 +143,38 @@ class Window:
 						pygame.quit()
 					elif key[K_SPACE] == 1:
 						if self.optionsMenu.volumeUpButton.isHighlight:
-							if self.currentVolume<1.1:
+							if self.currentVolume<1.0:
 								self.currentVolume+=0.1
-								pygame.mixer.music.set_volume(self.currentVolume)
 						elif self.optionsMenu.volumeDownButton.isHighlight:
-							if self.currentVolume>-0.1:
+							if self.currentVolume>=0.1:
 								self.currentVolume-=0.1
-								pygame.mixer.music.set_volume(self.currentVolume)
 						elif self.optionsMenu.backButton.isHighlight:
 							self.loadMenu()
-							print "hello3"
 					else:
 						self.optionsMenu.keyPress(key)
 				if event.type == pygame.MOUSEBUTTONDOWN:
 					if self.optionsMenu.volumeUpButton.mousePress(pygame.mouse.get_pressed()):
 						if self.currentVolume<1.0:
 							self.currentVolume+=0.1
-							pygame.mixer.music.set_volume(self.currentVolume)
 					elif self.optionsMenu.volumeDownButton.mousePress(pygame.mouse.get_pressed()):
-						if self.currentVolume>0.0:
+						if self.currentVolume>=0.1:
 							self.currentVolume-=0.1
-							pygame.mixer.music.set_volume(self.currentVolume)
 					elif self.optionsMenu.backButton.mousePress(pygame.mouse.get_pressed()):
 						self.loadMenu()
-						print "hello3"
+		elif self.inHighscores:
+			for event in pygame.event.get():
+				if event.type == pygame.QUIT:
+					pygame.exit()
+				if event.type == KEYDOWN:
+					key=pygame.key.get_pressed()
+					if key[K_ESCAPE] == 1:
+						pygame.quit()
+					elif key[K_SPACE] == 1:
+						if self.highscoresMenu.backButton.isHighlight:
+							self.loadMenu()
+				if event.type == pygame.MOUSEBUTTONDOWN:
+					if self.highscoresMenu.backButton.mousePress(pygame.mouse.get_pressed()):
+						self.loadMenu()
 		else:
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT:

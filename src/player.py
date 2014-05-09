@@ -5,7 +5,7 @@ from pygame.locals import *
 
 class Character:
 
-	def __init__(self):
+	def __init__(self,currentVolume):
 		self.currentX=80
 		self.currentY=0
 		self.gravity = 1.6
@@ -19,6 +19,7 @@ class Character:
 		self.isInvuln=False
 		self.isJump = True
 		self.angle = 0
+		self.currentVolume = currentVolume
 		self.loadChar()
 
 #loads the images in the animation loop for the character and creates a hitbox
@@ -82,6 +83,7 @@ class Character:
 		if self.currentY > ( currentLow - self.charImage.get_height() ):
 			if (self.isJump == True):
 				## Sound effects
+				self.landSound.set_volume(self.currentVolume)
 				self.landSound.play()
 			## snap the character to the floor
 			self.currentY=currentLow-self.charImage.get_height()
@@ -101,6 +103,7 @@ class Character:
 			self.vSpeed = -24
 			self.isJump = True
 			## Sound effects
+			self.jumpSound.set_volume(self.currentVolume)
 			self.jumpSound.play()
 
 #recieves input and acts accordingly
@@ -129,6 +132,7 @@ class Character:
 		## add the bullet to the list.
 		self.bulletList.append(tempBullet)
 		## Play the bullet shoot sound
+		self.laserSound.set_volume(self.currentVolume)
 		self.laserSound.play()
 	
 	## activate shooting.
