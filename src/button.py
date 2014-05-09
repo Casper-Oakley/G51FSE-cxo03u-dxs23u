@@ -9,10 +9,13 @@ class Button:
 		self.buttonHitBox=pygame.Rect(x,y,self.image.get_width(),self.image.get_height())
 		self.x=x
 		self.y=y
+		self.isHighlight=False
 
 	def drawButton(self,screen):
 		mousePos=pygame.mouse.get_pos()
 		if mousePos[0]>self.x and mousePos[0] < self.x+self.buttonHitBox.width and mousePos[1]>self.y and mousePos[1] < self.y+self.buttonHitBox.height:
+			self.isHighlight=True
+		if self.isHighlight:
 			screen.blit(self.highlightImage,(self.x,self.y))
 		else:
 			screen.blit(self.image,(self.x,self.y))
