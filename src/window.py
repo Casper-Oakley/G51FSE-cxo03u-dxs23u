@@ -67,8 +67,19 @@ class Window:
 				self.inGame=self.world.isGame
 				#if game over
 				if not self.inGame:
-					highscores = open("../highscores.txt","a")
-					highscores.write(str(self.world.score)+"\n");
+#rewrite sorted file with top 5 scores
+					highscores = open("../highscores.txt","r")
+					highscoreStore = []
+					for line in highscores:
+						highscoreStore.append(int(line[:-1]))
+					highscoreStore.append(self.world.score)
+					highscoreStore=sorted(highscoreStore,reverse=True)
+					highscoreString=""
+					for i in range(5):
+						highscoreString+=str(highscoreStore[i])+"\n"
+					highscores.close()
+					highscores = open("../highscores.txt","w")
+					highscores.write(highscoreString)
 					highscores.close()
 			self.draw()
 			pygame.display.flip()

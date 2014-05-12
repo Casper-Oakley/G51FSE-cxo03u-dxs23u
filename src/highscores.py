@@ -24,4 +24,5 @@ class Highscores:
 
 	def drawScore(self,screen,index,score):
 		scoreText=pygame.font.SysFont("Helvetica",20,True,False)
+#print in red the whole line string minus the \n
 		screen.blit(scoreText.render(str(index)+") "+score[:-1],1,(255,0,0)) ,(10,10+index*30))
