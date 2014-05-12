@@ -2,35 +2,25 @@ import pygame
 from pygame.locals import *
 from button import Button
 
-class Menu:
+class Gameover:
 
 	def __init__(self):
-		self.background=pygame.image.load("../assets/images/menu/menuBackground.png")
-		self.title=pygame.image.load("../assets/images/menu/menuTitle.png")
-		self.playButton=Button(256,200,"../assets/images/menu/playButton.png","../assets/images/menu/playButtonHighlight.png")
-		self.optionsButton=Button(256,300,"../assets/images/menu/optionsButton.png","../assets/images/menu/optionsButtonHighlight.png")
+		self.playButton=Button(256,300,"../assets/images/menu/playButton.png","../assets/images/menu/playButtonHighlight.png")
 		self.highScoresButton=Button(256,400,"../assets/images/menu/highScoresButton.png","../assets/images/menu/highScoresButtonHighlight.png")
 		self.selectLocation = 0
 
-	def drawMenu(self,screen):
+	def drawMenu(self,screen,score):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
-		screen.blit(self.background,(0,0))
-		screen.blit(self.title,(40,20))
 		if self.selectLocation == 0:
 			self.playButton.isHighlight=True
-			self.optionsButton.isHighlight=False
 			self.highScoresButton.isHighlight=False
 		elif self.selectLocation == 1:
 			self.playButton.isHighlight=False
-			self.optionsButton.isHighlight=True
-			self.highScoresButton.isHighlight=False
-		elif self.selectLocation == 2:
-			self.playButton.isHighlight=False
-			self.optionsButton.isHighlight=False
 			self.highScoresButton.isHighlight=True
 		self.playButton.drawButton(screen)
-		self.optionsButton.drawButton(screen)
 		self.highScoresButton.drawButton(screen)
+		gameOver=pygame.font.SysFont("verdana",20,True,False)
+		screen.blit(gameOver.render("Game Over! You Earned: "+str(score),1,(255,255,255)),(160,180))
 
 	def keyPress(self,key):
 			if key[K_w] == 1:
@@ -41,7 +31,7 @@ class Menu:
 				self.selectLocation -= 1
 			elif key[K_DOWN] == 1:
 				self.selectLocation += 1
-			if self.selectLocation > 2:
+			if self.selectLocation > 1:
 				self.selectLocation = 0
 			elif self.selectLocation < 0:
-				self.selectLocation = 2
+				self.selectLocation = 1

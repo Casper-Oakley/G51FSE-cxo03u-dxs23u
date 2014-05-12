@@ -6,7 +6,7 @@ class Highscores:
 
 	def __init__(self):
 		self.background=pygame.image.load("../assets/images/menu/menuBackground.png")
-		self.backButton=Button(200,400,"../assets/images/menu/backButton.png","../assets/images/menu/backButtonHighlight.png")
+		self.backButton=Button(256,400,"../assets/images/menu/backButton.png","../assets/images/menu/backButtonHighlight.png")
 		self.backButton.isHighlight=True
 		highscoreFile = open("../highscores.txt","r")
 		self.highscoreStore = []
@@ -16,13 +16,22 @@ class Highscores:
 			self.counter += 1
 
 	def drawMenu(self,screen):
-		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))		
+		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
 		screen.blit(self.background,(0,0))
+		highscoreBackground = pygame.Surface((200,340))
+		highscoreBackground.fill((255,255,255))
+		highscoreBackground.set_alpha(120)
+		screen.blit(highscoreBackground,(200,60))
 		self.backButton.drawButton(screen)
 		for i in range(self.counter):
 			self.drawScore(screen,i,self.highscoreStore[i])
+		self.drawHighscoreText(screen)
 
 	def drawScore(self,screen,index,score):
-		scoreText=pygame.font.SysFont("Helvetica",20,True,False)
+		scoreText=pygame.font.SysFont("verdana",20,True,False)
 #print in red the whole line string minus the \n
-		screen.blit(scoreText.render(str(index)+") "+score[:-1],1,(255,0,0)) ,(10,10+index*30))
+		screen.blit(scoreText.render(str(index+1)+") "+score[:-1],1,(255,0,0)) ,(200,100+index*30))
+
+	def drawHighscoreText(self,screen):
+		highscoreText=pygame.font.SysFont("verdana",20,True,False)
+		screen.blit(highscoreText.render("Highscores",1,(255,0,0)),(200,60))
