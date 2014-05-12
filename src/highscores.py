@@ -5,6 +5,7 @@ from button import Button
 class Highscores:
 
 	def __init__(self):
+		self.background=pygame.image.load("../assets/images/menu/menuBackground.png")
 		self.backButton=Button(200,400,"../assets/images/menu/backButton.png","../assets/images/menu/backButtonHighlight.png")
 		self.backButton.isHighlight=True
 		highscoreFile = open("../highscores.txt","r")
@@ -15,7 +16,8 @@ class Highscores:
 			self.counter += 1
 
 	def drawMenu(self,screen):
-		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
+		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))		
+		screen.blit(self.background,(0,0))
 		self.backButton.drawButton(screen)
 		for i in range(self.counter):
 			self.drawScore(screen,i,self.highscoreStore[i])

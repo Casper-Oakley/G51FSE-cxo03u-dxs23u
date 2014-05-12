@@ -5,6 +5,7 @@ from button import Button
 class Options:
 
 	def __init__(self,currentVolume):
+		self.background=pygame.image.load("../assets/images/menu/menuBackground.png")
 		self.volumeUpButton=Button(200,200,"../assets/images/menu/volumeUpButton.png","../assets/images/menu/volumeUpButtonHighlight.png")
 		self.volumeDownButton=Button(200,300,"../assets/images/menu/volumeDownButton.png","../assets/images/menu/volumeDownButtonHighlight.png")
 		self.backButton=Button(200,400,"../assets/images/menu/backButton.png","../assets/images/menu/backButtonHighlight.png")
@@ -14,6 +15,7 @@ class Options:
 
 	def drawMenu(self,screen,currentVolume):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
+		screen.blit(self.background,(0,0))
 		if self.selectLocation == 0:
 			self.volumeUpButton.isHighlight=True
 			self.volumeDownButton.isHighlight=False

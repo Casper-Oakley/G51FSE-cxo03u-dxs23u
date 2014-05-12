@@ -5,6 +5,8 @@ from button import Button
 class Menu:
 
 	def __init__(self):
+		self.background=pygame.image.load("../assets/images/menu/menuBackground.png")
+		self.title=pygame.image.load("../assets/images/menu/menuTitle.png")
 		self.playButton=Button(200,200,"../assets/images/menu/playButton.png","../assets/images/menu/playButtonHighlight.png")
 		self.optionsButton=Button(200,300,"../assets/images/menu/optionsButton.png","../assets/images/menu/optionsButtonHighlight.png")
 		self.highScoresButton=Button(200,400,"../assets/images/menu/highScoresButton.png","../assets/images/menu/highScoresButtonHighlight.png")
@@ -13,6 +15,8 @@ class Menu:
 
 	def drawMenu(self,screen):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
+		screen.blit(self.background,(0,0))
+		screen.blit(self.title,(40,20))
 		if self.selectLocation == 0:
 			self.playButton.isHighlight=True
 			self.optionsButton.isHighlight=False
