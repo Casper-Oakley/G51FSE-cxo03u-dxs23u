@@ -8,22 +8,38 @@ class Enemy2:
 		self.x=x
 		self.y=y
 		self.isDead = False
+		self.isJump = False
+		self.yOffset = 0
+		self.vSpeed = 0
 
 	def load(self,screen):
-		#self.sprite = pygame.sprite.Sprite()
 		## Standard image loading and collision box setup
 		self.imageAir=pygame.image.load("../assets/images/enemy/pogo1.png").convert_alpha()
 		self.imageGro = pygame.image.load("../assets/images/enemy/pogo2.png").convert_alpha()
-		self.rect1 = pygame.Rect(self.x,self.y,self.imageAir.get_width(),self.imageAir.get_height())
-		#self.sprite.maskIm=pygame.mask.from_surface(self.image)
+		self.enemyRectangle = pygame.Rect(self.x,self.y,self.imageAir.get_width(),self.imageAir.get_height())
 
 	
 	def draw(self,screen,x,y):
+		self.jump()
 		if not self.isDead:
-			screen.blit(self.imageAir,(x,y))
-			self.rect1.x=x
-			self.rect1.y=y
+			if self.yOffset > 10:
+				screen.blit(self.imageAir,(x,y-self.yOffset))
+			else:
+				screen.blit(self.imageGro,(x,y-self.yOffset))
+			self.enemyRectangle.x=x
+			self.enemyRectangle.y=y-self.yOffset
 	
 	def kill(self):
-		self.rect1.x = -50
-		self.rect1.y = -50
+		self.enemyRectangle.x = -50
+		self.enemyRectangle.y = -50
+
+	def jump(self):
+		if not self.isJump:
+			self.vSpeed = 24
+			self.isJump = True
+		elif self.yOffset<0:
+			self.yOffset = 0
+			self.isJump = False
+		else:
+			self.vSpeed -= 1.6
+			self.yOffset += self.vSpeed
