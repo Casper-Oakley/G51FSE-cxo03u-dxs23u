@@ -122,16 +122,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3755-7"
-       id="linearGradient3804"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-4.2593768,-55.6001)"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3814"
        id="linearGradient3820"
        x1="3.3214286"
@@ -183,76 +173,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3814-5"
-       id="linearGradient3955"
-       gradientUnits="userSpaceOnUse"
-       x1="3.3214285"
-       y1="1028.1656"
-       x2="124.17858"
-       y2="1028.1656"
-       gradientTransform="translate(130.45436,-0.16244065)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3960"
-       id="linearGradient3958"
-       gradientUnits="userSpaceOnUse"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265"
-       gradientTransform="translate(130.45436,-0.16244065)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3988"
-       id="linearGradient3974"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(259.74008,-0.51958351)"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3814-5"
-       id="linearGradient3976"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(259.74008,-0.51958351)"
-       x1="3.3214285"
-       y1="1028.1656"
-       x2="124.17858"
-       y2="1028.1656" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3994"
-       id="linearGradient3984"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(389.74008,-0.51958351)"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3814-5"
-       id="linearGradient3986"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(389.74008,-0.51958351)"
-       x1="3.3214285"
-       y1="1028.1656"
-       x2="124.17858"
-       y2="1028.1656" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3814-5-9"
-       id="linearGradient3986-4"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(389.44147,35.740141)"
-       x1="3.3214285"
-       y1="1028.1656"
-       x2="124.17858"
-       y2="1028.1656" />
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient3814-5-9">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
@@ -263,16 +183,6 @@
          offset="1"
          id="stop3818-8-2" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3994-5"
-       id="linearGradient3984-4"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-517.4414,-2108.4647)"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265" />
     <linearGradient
        id="linearGradient3994-5">
       <stop
@@ -289,26 +199,6 @@
          id="stop3998-9" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3814-5-9"
-       id="linearGradient3976-9"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(259.44147,35.740141)"
-       x1="3.3214285"
-       y1="1028.1656"
-       x2="124.17858"
-       y2="1028.1656" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3988-3"
-       id="linearGradient3974-8"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(259.44147,-2108.4647)"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265" />
-    <linearGradient
        id="linearGradient3988-3">
       <stop
          style="stop-color:#660c0c;stop-opacity:1;"
@@ -319,26 +209,6 @@
          offset="1"
          id="stop3992-6" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3814-5-9"
-       id="linearGradient3955-9"
-       gradientUnits="userSpaceOnUse"
-       x1="3.3214285"
-       y1="1028.1656"
-       x2="124.17858"
-       y2="1028.1656"
-       gradientTransform="translate(130.15575,36.097241)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3960-6"
-       id="linearGradient3958-8"
-       gradientUnits="userSpaceOnUse"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265"
-       gradientTransform="translate(130.15575,-2108.8219)" />
     <linearGradient
        id="linearGradient3960-6">
       <stop
@@ -383,26 +253,6 @@
          offset="1"
          id="stop3818-78" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3814-57"
-       id="linearGradient4149"
-       gradientUnits="userSpaceOnUse"
-       x1="3.3214285"
-       y1="1028.1656"
-       x2="124.17858"
-       y2="1028.1656"
-       gradientTransform="translate(-0.29860888,36.259735)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3755-8"
-       id="linearGradient4152"
-       gradientUnits="userSpaceOnUse"
-       x1="65.75"
-       y1="1052.255"
-       x2="65.821426"
-       y2="1020.8265"
-       gradientTransform="translate(-0.29860888,-2108.9842)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3994"
@@ -808,6 +658,433 @@
        x2="-826.75769"
        y2="40.063278"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5-9"
+       id="linearGradient3375"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-758.09183,-222.85891)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3994-5"
+       id="linearGradient3378"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(630.0919,-1849.8657)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5-9"
+       id="linearGradient3381"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-888.09183,-222.85891)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3988-3"
+       id="linearGradient3384"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-888.09183,-1849.8657)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5-9"
+       id="linearGradient3387"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1017.3776,-222.50181)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3960-6"
+       id="linearGradient3390"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1017.3776,-1850.2228)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-57"
+       id="linearGradient3393"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1147.8319,-222.33931)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3755-8"
+       id="linearGradient3396"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1147.8319,-1850.3851)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5"
+       id="linearGradient3399"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-757.79322,-259.11863)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3994"
+       id="linearGradient3402"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-757.79322,-259.11863)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5"
+       id="linearGradient3405"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-887.79322,-259.11863)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3988"
+       id="linearGradient3408"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-887.79322,-259.11863)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5"
+       id="linearGradient3411"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1017.0789,-258.76149)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3960"
+       id="linearGradient3414"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1017.0789,-258.76149)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3755-7"
+       id="linearGradient3420"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1151.7927,-314.19915)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5-9-74"
+       id="linearGradient3381-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-741.29216,-61.584517)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3814-5-9-74">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3816-8-8-0" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3818-8-2-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3988-3-8"
+       id="linearGradient3384-4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-741.29216,-2011.14)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       id="linearGradient3988-3-8">
+      <stop
+         style="stop-color:#660c0c;stop-opacity:1;"
+         offset="0"
+         id="stop3990-8-82" />
+      <stop
+         style="stop-color:#ef3636;stop-opacity:1;"
+         offset="1"
+         id="stop3992-6-4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5-5"
+       id="linearGradient3405-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-740.99355,-97.844257)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3814-5-5">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3816-8-1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3818-8-7" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3988-1"
+       id="linearGradient3408-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-887.79322,-259.11863)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       id="linearGradient3988-1">
+      <stop
+         style="stop-color:#660c0c;stop-opacity:1;"
+         offset="0"
+         id="stop3990-52" />
+      <stop
+         style="stop-color:#ef3636;stop-opacity:1;"
+         offset="1"
+         id="stop3992-7" />
+    </linearGradient>
+    <linearGradient
+       y2="1020.8265"
+       x2="65.821426"
+       y1="1052.255"
+       x1="65.75"
+       gradientTransform="translate(-740.99355,-97.844257)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3453"
+       xlink:href="#linearGradient3988-1"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5-9-2"
+       id="linearGradient3387-2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-608.92219,-138.8086)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3814-5-9-2">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3816-8-8-1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3818-8-2-6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3960-6-5"
+       id="linearGradient3390-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-608.92219,-1933.916)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       id="linearGradient3960-6-5">
+      <stop
+         id="stop3962-6-7"
+         offset="0"
+         style="stop-color:#165c1a;stop-opacity:1;" />
+      <stop
+         id="stop3964-2-6"
+         offset="1"
+         style="stop-color:#55d74e;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-57-8"
+       id="linearGradient3393-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-739.37644,-138.6461)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3814-57-8">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3816-82-9" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3818-78-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3755-8-9"
+       id="linearGradient3396-7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-739.37644,-1934.0783)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3755-8-9">
+      <stop
+         style="stop-color:#164c5c;stop-opacity:1"
+         offset="0"
+         id="stop3757-26-5" />
+      <stop
+         style="stop-color:#4eb4d7;stop-opacity:1"
+         offset="1"
+         id="stop3759-2-4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-5-1"
+       id="linearGradient3411-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-608.62349,-175.06832)"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3814-5-1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3816-8-2" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3818-8-3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3960-4"
+       id="linearGradient3414-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-608.62349,-175.06832)"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265" />
+    <linearGradient
+       id="linearGradient3960-4">
+      <stop
+         id="stop3962-1"
+         offset="0"
+         style="stop-color:#165c1a;stop-opacity:1;" />
+      <stop
+         id="stop3964-1"
+         offset="1"
+         style="stop-color:#55d74e;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3755-87"
+       id="linearGradient3761-3"
+       x1="65.75"
+       y1="1052.255"
+       x2="65.821426"
+       y2="1020.8265"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3755-87">
+      <stop
+         style="stop-color:#164c5c;stop-opacity:1"
+         offset="0"
+         id="stop3757-42" />
+      <stop
+         style="stop-color:#4eb4d7;stop-opacity:1"
+         offset="1"
+         id="stop3759-7" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3814-3"
+       id="linearGradient3820-79"
+       x1="3.3214285"
+       y1="1028.1656"
+       x2="124.17858"
+       y2="1028.1656"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3814-3">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3816-1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3818-9" />
+    </linearGradient>
+    <linearGradient
+       y2="1028.1656"
+       x2="124.17858"
+       y1="1028.1656"
+       x1="3.3214285"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3557"
+       xlink:href="#linearGradient3814-3"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -816,9 +1093,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="-794.29983"
-     inkscape:cy="927.8102"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-591.18113"
+     inkscape:cy="130.3247"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -843,638 +1120,635 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:url(#linearGradient3420);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="m -1023.7927,723.36335 c 0,-0.9151 -0.1058,-1.7945 -0.2812,-2.6563 -0.1755,-0.8617 -0.4166,-1.6777 -0.75,-2.4687 -0.6669,-1.582 -1.6495,-3.0245 -2.8438,-4.2187 -1.1942,-1.1943 -2.6055,-2.1456 -4.1875,-2.8126 -0.791,-0.3334 -1.607,-0.6057 -2.4687,-0.7812 -0.8618,-0.1755 -1.7724,-0.25 -2.6875,-0.25 l -101.5625,0 c -0.9151,0 -1.8258,0.074 -2.6875,0.25 -0.8618,0.1755 -1.6778,0.4478 -2.4688,0.7812 -1.582,0.667 -2.9932,1.6183 -4.1875,2.8126 -1.1942,1.1942 -2.1768,2.6367 -2.8437,4.2187 -0.3335,0.791 -0.5746,1.607 -0.75,2.4687 -0.1755,0.8618 -0.2813,1.7412 -0.2813,2.6563 l 0,1.5937 c 0,7.3208 5.8981,13.2188 13.2188,13.2188 l 101.5625,0 c 7.3207,0 13.2187,-5.898 13.2187,-13.2188 l 0,-1.5937 z"
+       id="path3802"
+       inkscape:connector-curvature="0" />
     <g
-       id="g4714"
+       id="g3898"
        transform="translate(-1147.5333,-258.59905)">
+      <rect
+         ry="13.214286"
+         y="1020.3622"
+         x="0"
+         height="32"
+         width="128"
+         id="rect2985"
+         style="fill:url(#linearGradient3761);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
-         id="path3802"
-         d="m 123.74062,981.9624 c 0,-0.9151 -0.1058,-1.7945 -0.28125,-2.6563 -0.17545,-0.8617 -0.41655,-1.6777 -0.75,-2.4687 -0.66691,-1.582 -1.64951,-3.0245 -2.84375,-4.2187 -1.19424,-1.1943 -2.6055,-2.1456 -4.1875,-2.8126 -0.791,-0.3334 -1.60698,-0.6057 -2.46875,-0.7812 -0.86177,-0.1755 -1.77241,-0.25 -2.6875,-0.25 l -101.5624968,0 c -0.91509,0 -1.82574,0.074 -2.6875,0.25 -0.86177,0.1755 -1.67775,0.4478 -2.46875,0.7812 -1.582,0.667 -2.99326004,1.6183 -4.18750004,2.8126 -1.19423996,1.1942 -2.17684996,2.6367 -2.84374996,4.2187 -0.33346,0.791 -0.57455,1.607 -0.75,2.4687 -0.17545,0.8618 -0.28125,1.7412 -0.28125,2.6563 l 0,1.5937 c 0,7.3208 5.89803,13.2188 13.21875,13.2188 l 101.5624968,0 c 7.32071,0 13.21875,-5.898 13.21875,-13.2188 l 0,-1.5937 z"
-         style="fill:url(#linearGradient3804);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+         id="rect2985-9"
+         d="m 15.802525,1023.2667 c -6.9121926,0.02 -12.4810964,3.4655 -12.4810964,7.7439 l 0,2.3376 c 0,-0.5348 0.099896,-1.049 0.2655552,-1.5531 0.1656599,-0.5041 0.3933011,-0.9817 0.7081472,-1.4449 0.6296928,-0.9264 1.5574606,-1.7722 2.6850588,-2.4734 1.1275981,-0.7013 2.4601062,-1.2612 3.9538222,-1.6554 0.746859,-0.197 1.517307,-0.3585 2.330985,-0.4634 0.813678,-0.105 1.673504,-0.1511 2.537528,-0.1536 l 95.894955,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.894955,0.2834 z"
+         style="fill:url(#linearGradient3820);fill-opacity:1;stroke:none" />
+    </g>
+    <rect
+       style="fill:url(#linearGradient3414);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2985-2"
+       width="128"
+       height="32"
+       x="-1017.0789"
+       y="761.60077"
+       ry="13.214286" />
+    <path
+       style="fill:url(#linearGradient3411);fill-opacity:1;stroke:none"
+       d="m -1001.2764,764.50525 c -6.9122,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.1,-1.049 0.2655,-1.5531 0.1657,-0.5041 0.3933,-0.9817 0.7082,-1.4449 0.6297,-0.9264 1.5574,-1.7722 2.685,-2.4734 1.1276,-0.7013 2.4602,-1.2612 3.9539,-1.6554 0.7468,-0.197 1.5173,-0.3585 2.331,-0.4634 0.8136,-0.105 1.6735,-0.1511 2.5375,-0.1536 l 95.89494,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89494,0.2834 z"
+       id="rect2985-9-1"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:url(#linearGradient3408);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect3970"
+       width="128"
+       height="32"
+       x="-887.79321"
+       y="761.24365"
+       ry="13.214286" />
+    <path
+       style="fill:url(#linearGradient3405);fill-opacity:1;stroke:none"
+       d="m -871.9907,764.14815 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+       id="path3972"
+       inkscape:connector-curvature="0" />
+    <rect
+       ry="13.214286"
+       y="761.24365"
+       x="-757.79321"
+       height="32"
+       width="128"
+       id="rect3980"
+       style="fill:url(#linearGradient3402);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3982"
+       d="m -741.9907,764.14815 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+       style="fill:url(#linearGradient3399);fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:url(#linearGradient3396);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2985-20"
+       width="128"
+       height="32"
+       x="-1147.8319"
+       y="-830.02289"
+       ry="13.214286"
+       transform="scale(1,-1)" />
+    <path
+       style="fill:url(#linearGradient3393);fill-opacity:1;stroke:none"
+       d="m -1132.0294,800.92735 c -6.9122,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.1,-1.049 0.2656,-1.5531 0.1656,-0.5041 0.3933,-0.9817 0.7081,-1.4449 0.6297,-0.9264 1.5575,-1.7722 2.6851,-2.4734 1.1276,-0.7013 2.4601,-1.2612 3.9538,-1.6554 0.7469,-0.197 1.5173,-0.3585 2.331,-0.4634 0.8137,-0.105 1.6735,-0.1511 2.5375,-0.1536 l 95.895,-0.2834 c 0.864,0 1.7238,0.038 2.5375,0.1386 0.8137,0.1001 1.5841,0.257 2.331,0.4496 1.4937,0.3854 2.8262,0.9375 3.9538,1.632 1.1276,0.6946 2.0554,1.535 2.6851,2.4576 0.3148,0.4614 0.5424,0.9376 0.7081,1.4407 0.1657,0.5031 0.2656,1.0167 0.2656,1.5515 l 0,-2.3376 c 0,-4.2784 -5.569,-7.6905 -12.4811,-7.6701 l -95.895,0.2834 z"
+       id="rect2985-9-8"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:url(#linearGradient3390);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2985-2-9"
+       width="128"
+       height="32"
+       x="-1017.3776"
+       y="-829.86053"
+       ry="13.214286"
+       transform="scale(1,-1)" />
+    <path
+       style="fill:url(#linearGradient3387);fill-opacity:1;stroke:none"
+       d="m -1001.575,800.76495 c -6.9122,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.1,-1.049 0.2655,-1.5531 0.1657,-0.5041 0.3933,-0.9817 0.7082,-1.4449 0.6297,-0.9264 1.5574,-1.7722 2.685,-2.4734 1.1276,-0.7013 2.4601,-1.2612 3.9539,-1.6554 0.7468,-0.197 1.5173,-0.3585 2.3309,-0.4634 0.8137,-0.105 1.6735,-0.1511 2.5376,-0.1536 l 95.89493,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89493,0.2834 z"
+       id="rect2985-9-1-2"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:url(#linearGradient3384);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect3970-8"
+       width="128"
+       height="32"
+       x="-888.09186"
+       y="-829.50336"
+       ry="13.214286"
+       transform="scale(1,-1)" />
+    <path
+       style="fill:url(#linearGradient3381);fill-opacity:1;stroke:none"
+       d="m -872.28931,800.40785 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+       id="path3972-2"
+       inkscape:connector-curvature="0" />
+    <rect
+       ry="13.214286"
+       y="-829.50336"
+       x="630.09192"
+       height="32"
+       width="128"
+       id="rect3980-0"
+       style="fill:url(#linearGradient3378);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       transform="scale(-1,-1)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3982-5"
+       d="m -742.28931,800.40785 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+       style="fill:url(#linearGradient3375);fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(1,-1)"
+       ry="13.214286"
+       y="-830.02289"
+       x="-1147.8319"
+       height="32"
+       width="128"
+       id="rect4188"
+       style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1" />
+    <rect
+       transform="scale(1,-1)"
+       ry="13.214286"
+       y="-829.86053"
+       x="-1017.3776"
+       height="32"
+       width="128"
+       id="rect4190"
+       style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1" />
+    <rect
+       transform="scale(1,-1)"
+       ry="13.214286"
+       y="-829.50336"
+       x="-888.09186"
+       height="32"
+       width="128"
+       id="rect4192"
+       style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1" />
+    <rect
+       transform="scale(-1,-1)"
+       style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
+       id="rect4194"
+       width="128"
+       height="32"
+       x="630.09192"
+       y="-829.50336"
+       ry="13.214286" />
+    <g
+       id="g4417"
+       transform="translate(-1633.3635,-187.51711)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="13.214286"
+         y="1108.7361"
+         x="625.10565"
+         height="32"
+         width="128"
+         id="rect4234"
+         style="fill:url(#linearGradient4274);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4236"
+         d="m 640.90814,1111.6406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         style="fill:url(#linearGradient4276);fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g4421"
+       transform="translate(-1633.3635,-187.51711)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="13.214286"
+         y="-1176.9958"
+         x="-752.80695"
+         height="32"
+         width="128"
+         id="rect4250"
+         style="fill:url(#linearGradient4290);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         transform="scale(-1,-1)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4252"
+         d="m 640.60953,1147.9003 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         style="fill:url(#linearGradient4292);fill-opacity:1;stroke:none" />
+      <rect
+         transform="scale(-1,-1)"
+         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
+         id="rect4260"
+         width="128"
+         height="32"
+         x="-752.80695"
+         y="-1176.9958"
+         ry="13.214286" />
+    </g>
+    <g
+       id="g4376"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-874.79211,-264.65997)">
+      <rect
+         style="fill:url(#linearGradient4325);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="rect4226-2"
+         width="128"
+         height="32"
+         x="-270.93195"
+         y="1112.1765"
+         ry="13.214286" />
+      <path
+         style="fill:url(#linearGradient4268-8);fill-opacity:1;stroke:none"
+         d="m -255.12946,1115.0809 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         id="path4228-1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4380"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-874.79211,-264.65997)">
+      <rect
+         style="fill:url(#linearGradient4282-6);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="rect4242-4"
+         width="128"
+         height="32"
+         x="-271.23056"
+         y="-1180.4363"
+         ry="13.214286"
+         transform="scale(1,-1)" />
+      <path
+         style="fill:url(#linearGradient4284-8);fill-opacity:1;stroke:none"
+         d="m -255.42807,1151.3406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         id="path4244-8"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="scale(1,-1)"
+         ry="13.214286"
+         y="-1180.4363"
+         x="-271.23056"
+         height="32"
+         width="128"
+         id="rect4256-6"
+         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-1102.0764"
+       y="871.5246"
+       id="text4196"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButton.png"><tspan
+         sodipodi:role="line"
+         id="tspan4198"
+         x="-1102.0764"
+         y="871.5246">Play </tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4385"
+       y="907.5246"
+       x="-1102.0764"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="907.5246"
+         x="-1102.0764"
+         id="tspan4387"
+         sodipodi:role="line">Play </tspan></text>
+    <g
+       transform="translate(-1640.177,-187.3066)"
+       id="g4408-7"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:url(#linearGradient4270-1);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="rect4230-2"
+         width="128"
+         height="32"
+         x="495.10562"
+         y="1108.7361"
+         ry="13.214286" />
+      <path
+         style="fill:url(#linearGradient4467);fill-opacity:1;stroke:none"
+         d="m 510.90814,1111.6406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         id="path4232-1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(-1640.177,-187.3066)"
+       id="g4412-4"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:url(#linearGradient4286-4);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="rect4246-9"
+         width="128"
+         height="32"
+         x="494.80698"
+         y="-1176.9958"
+         ry="13.214286"
+         transform="scale(1,-1)" />
+      <path
+         style="fill:url(#linearGradient4288-8);fill-opacity:1;stroke:none"
+         d="m 510.60953,1147.9003 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         id="path4248-9"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="scale(1,-1)"
+         ry="13.214286"
+         y="-1176.9958"
+         x="494.80698"
+         height="32"
+         width="128"
+         id="rect4258-0"
+         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-1103.3412"
+       y="945.09662"
+       id="text4200"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4202"
+         x="-1103.3412"
+         y="945.09662">Back</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4543"
+       y="983.09662"
+       x="-1103.3412"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButtonHighlight.png"><tspan
+         y="983.09662"
+         x="-1103.3412"
+         id="tspan4545"
+         sodipodi:role="line">Back</tspan></text>
+    <g
+       transform="translate(-1246.7393,-262.74924)"
+       id="g4389-4"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <g
-         id="g3898">
+         transform="translate(235.36554,88.893424)"
+         id="g4220-0">
         <rect
-           style="fill:url(#linearGradient3761);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-           id="rect2985"
+           ry="13.214286"
+           y="1020.3622"
+           x="0"
+           height="32"
+           width="128"
+           id="rect4222-8"
+           style="fill:url(#linearGradient4262-6);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4224-8"
+           d="m 15.802525,1023.2667 c -6.9121926,0.02 -12.4810964,3.4655 -12.4810964,7.7439 l 0,2.3376 c 0,-0.5348 0.099896,-1.049 0.2655552,-1.5531 0.1656599,-0.5041 0.3933011,-0.9817 0.7081472,-1.4449 0.6296928,-0.9264 1.5574606,-1.7722 2.6850588,-2.4734 1.1275981,-0.7013 2.4601062,-1.2612 3.9538222,-1.6554 0.746859,-0.197 1.517307,-0.3585 2.330985,-0.4634 0.813678,-0.105 1.673504,-0.1511 2.537528,-0.1536 l 95.894955,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.894955,0.2834 z"
+           style="fill:url(#linearGradient4264-5);fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+    <g
+       transform="translate(-1246.7393,-262.74924)"
+       id="g4394-1"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:url(#linearGradient4278-3);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="rect4238-5"
+         width="128"
+         height="32"
+         x="235.06694"
+         y="-1177.5154"
+         ry="13.214286"
+         transform="scale(1,-1)" />
+      <path
+         style="fill:url(#linearGradient4280-6);fill-opacity:1;stroke:none"
+         d="m 250.86946,1148.4198 c -6.91219,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26556,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68505,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95383,-1.6554 0.74686,-0.197 1.5173,-0.3585 2.33098,-0.4634 0.81368,-0.105 1.67351,-0.1511 2.53753,-0.1536 l 95.89495,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89495,0.2834 z"
+         id="path4240-2"
+         inkscape:connector-curvature="0" />
+      <rect
+         transform="scale(1,-1)"
+         ry="13.214286"
+         y="-1177.5154"
+         x="235.06694"
+         height="32"
+         width="128"
+         id="rect4254-3"
+         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-981.86829"
+       y="870.28217"
+       id="text4208"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4210"
+         x="-981.86829"
+         y="870.28217">Options</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-993.27582"
+       y="945.94928"
+       id="text4212"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4214"
+         x="-993.27582"
+         y="945.94928">Volume Up</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4634"
+       y="906.78729"
+       x="-981.86829"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="906.78729"
+         x="-981.86829"
+         id="tspan4636"
+         sodipodi:role="line">Options</tspan></text>
+    <g
+       id="g4638"
+       transform="translate(-1111.935,-261.80282)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4640"
+         transform="translate(235.36554,88.893424)">
+        <rect
+           style="fill:url(#linearGradient4654);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+           id="rect4642"
            width="128"
            height="32"
            x="0"
            y="1020.3622"
            ry="13.214286" />
         <path
-           style="fill:url(#linearGradient3820);fill-opacity:1;stroke:none"
+           style="fill:url(#linearGradient4656);fill-opacity:1;stroke:none"
            d="m 15.802525,1023.2667 c -6.9121926,0.02 -12.4810964,3.4655 -12.4810964,7.7439 l 0,2.3376 c 0,-0.5348 0.099896,-1.049 0.2655552,-1.5531 0.1656599,-0.5041 0.3933011,-0.9817 0.7081472,-1.4449 0.6296928,-0.9264 1.5574606,-1.7722 2.6850588,-2.4734 1.1275981,-0.7013 2.4601062,-1.2612 3.9538222,-1.6554 0.746859,-0.197 1.517307,-0.3585 2.330985,-0.4634 0.813678,-0.105 1.673504,-0.1511 2.537528,-0.1536 l 95.894955,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.894955,0.2834 z"
-           id="rect2985-9"
+           id="path4644"
            inkscape:connector-curvature="0" />
       </g>
+    </g>
+    <g
+       id="g4646"
+       transform="translate(-1111.935,-261.80282)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
+         transform="scale(1,-1)"
          ry="13.214286"
-         y="1020.1998"
-         x="130.45436"
+         y="-1177.5154"
+         x="235.06694"
          height="32"
          width="128"
-         id="rect2985-2"
-         style="fill:url(#linearGradient3958);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+         id="rect4648"
+         style="fill:url(#linearGradient4658);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
-         id="rect2985-9-1"
-         d="m 146.25688,1023.1043 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-         style="fill:url(#linearGradient3955);fill-opacity:1;stroke:none" />
+         id="path4650"
+         d="m 250.86946,1148.4198 c -6.91219,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26556,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68505,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95383,-1.6554 0.74686,-0.197 1.5173,-0.3585 2.33098,-0.4634 0.81368,-0.105 1.67351,-0.1511 2.53753,-0.1536 l 95.89495,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89495,0.2834 z"
+         style="fill:url(#linearGradient4660);fill-opacity:1;stroke:none" />
       <rect
+         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
+         id="rect4652"
+         width="128"
+         height="32"
+         x="235.06694"
+         y="-1177.5154"
          ry="13.214286"
-         y="1019.8427"
-         x="259.74008"
-         height="32"
-         width="128"
-         id="rect3970"
-         style="fill:url(#linearGradient3974);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3972"
-         d="m 275.5426,1022.7472 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-         style="fill:url(#linearGradient3976);fill-opacity:1;stroke:none" />
+         transform="scale(1,-1)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-862.67029"
+       y="871.03973"
+       id="text4204"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4206"
+         x="-862.67029"
+         y="871.03973">Highscores</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4662"
+       y="907.03973"
+       x="-862.67029"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="907.03973"
+         x="-862.67029"
+         id="tspan4664"
+         sodipodi:role="line">Highscores</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4666"
+       y="981.94928"
+       x="-993.27582"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="981.94928"
+         x="-993.27582"
+         id="tspan4668"
+         sodipodi:role="line">Volume Up</tspan></text>
+    <g
+       transform="translate(-1500.8635,-187.51711)"
+       id="g4688"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
-         style="fill:url(#linearGradient3984);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         id="rect3980"
+         style="fill:url(#linearGradient4702);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="rect4690"
          width="128"
          height="32"
-         x="389.74008"
-         y="1019.8427"
+         x="625.10565"
+         y="1108.7361"
          ry="13.214286" />
       <path
-         style="fill:url(#linearGradient3986);fill-opacity:1;stroke:none"
-         d="m 405.5426,1022.7472 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-         id="path3982"
+         style="fill:url(#linearGradient4704);fill-opacity:1;stroke:none"
+         d="m 640.90814,1111.6406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         id="path4692"
          inkscape:connector-curvature="0" />
-      <rect
-         transform="scale(1,-1)"
-         ry="13.214286"
-         y="-1088.6219"
-         x="-0.29860887"
-         height="32"
-         width="128"
-         id="rect2985-20"
-         style="fill:url(#linearGradient4152);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="rect2985-9-8"
-         d="m 15.503916,1059.5264 c -6.9121925,0.02 -12.4810963,3.4655 -12.4810963,7.7439 l 0,2.3376 c 0,-0.5348 0.099896,-1.049 0.2655552,-1.5531 0.1656599,-0.5041 0.3933011,-0.9817 0.7081472,-1.4449 0.6296928,-0.9264 1.5574606,-1.7722 2.6850588,-2.4734 1.1275981,-0.7013 2.4601062,-1.2612 3.9538221,-1.6554 0.746859,-0.197 1.517307,-0.3585 2.330985,-0.4634 0.813678,-0.105 1.673504,-0.1511 2.537528,-0.1536 l 95.894954,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.894954,0.2834 z"
-         style="fill:url(#linearGradient4149);fill-opacity:1;stroke:none" />
-      <rect
-         transform="scale(1,-1)"
-         ry="13.214286"
-         y="-1088.4596"
-         x="130.15575"
-         height="32"
-         width="128"
-         id="rect2985-2-9"
-         style="fill:url(#linearGradient3958-8);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="rect2985-9-1-2"
-         d="m 145.95827,1059.364 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-         style="fill:url(#linearGradient3955-9);fill-opacity:1;stroke:none" />
-      <rect
-         transform="scale(1,-1)"
-         ry="13.214286"
-         y="-1088.1024"
-         x="259.44144"
-         height="32"
-         width="128"
-         id="rect3970-8"
-         style="fill:url(#linearGradient3974-8);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3972-2"
-         d="m 275.24399,1059.0069 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-         style="fill:url(#linearGradient3976-9);fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       transform="translate(-1500.8635,-187.51711)"
+       id="g4694"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
          transform="scale(-1,-1)"
-         style="fill:url(#linearGradient3984-4);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-         id="rect3980-0"
+         style="fill:url(#linearGradient4706);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="rect4696"
          width="128"
          height="32"
-         x="-517.44141"
-         y="-1088.1024"
+         x="-752.80695"
+         y="-1176.9958"
          ry="13.214286" />
       <path
-         style="fill:url(#linearGradient3986-4);fill-opacity:1;stroke:none"
-         d="m 405.24399,1059.0069 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-         id="path3982-5"
+         style="fill:url(#linearGradient4708);fill-opacity:1;stroke:none"
+         d="m 640.60953,1147.9003 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+         id="path4698"
          inkscape:connector-curvature="0" />
       <rect
-         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-         id="rect4188"
-         width="128"
-         height="32"
-         x="-0.29860887"
-         y="-1088.6219"
          ry="13.214286"
-         transform="scale(1,-1)" />
-      <rect
-         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-         id="rect4190"
-         width="128"
-         height="32"
-         x="130.15575"
-         y="-1088.4596"
-         ry="13.214286"
-         transform="scale(1,-1)" />
-      <rect
-         style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-         id="rect4192"
-         width="128"
-         height="32"
-         x="259.44144"
-         y="-1088.1024"
-         ry="13.214286"
-         transform="scale(1,-1)" />
-      <rect
-         ry="13.214286"
-         y="-1088.1024"
-         x="-517.44141"
+         y="-1176.9958"
+         x="-752.80695"
          height="32"
          width="128"
-         id="rect4194"
+         id="rect4700"
          style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
          transform="scale(-1,-1)" />
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButton.png"
-         transform="translate(-485.83024,71.081942)"
-         id="g4417">
-        <rect
-           style="fill:url(#linearGradient4274);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-           id="rect4234"
-           width="128"
-           height="32"
-           x="625.10565"
-           y="1108.7361"
-           ry="13.214286" />
-        <path
-           style="fill:url(#linearGradient4276);fill-opacity:1;stroke:none"
-           d="m 640.90814,1111.6406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           id="path4236"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButtonHighlight.png"
-         transform="translate(-485.83024,71.081942)"
-         id="g4421">
-        <rect
-           transform="scale(-1,-1)"
-           style="fill:url(#linearGradient4290);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-           id="rect4250"
-           width="128"
-           height="32"
-           x="-752.80695"
-           y="-1176.9958"
-           ry="13.214286" />
-        <path
-           style="fill:url(#linearGradient4292);fill-opacity:1;stroke:none"
-           d="m 640.60953,1147.9003 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           id="path4252"
-           inkscape:connector-curvature="0" />
-        <rect
-           ry="13.214286"
-           y="-1176.9958"
-           x="-752.80695"
-           height="32"
-           width="128"
-           id="rect4260"
-           style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-           transform="scale(-1,-1)" />
-      </g>
-      <g
-         transform="translate(272.74119,-6.0609153)"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButton.png"
-         id="g4376">
-        <rect
-           ry="13.214286"
-           y="1112.1765"
-           x="-270.93195"
-           height="32"
-           width="128"
-           id="rect4226-2"
-           style="fill:url(#linearGradient4325);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4228-1"
-           d="m -255.12946,1115.0809 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           style="fill:url(#linearGradient4268-8);fill-opacity:1;stroke:none" />
-      </g>
-      <g
-         transform="translate(272.74119,-6.0609153)"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButtonHighlight.png"
-         id="g4380">
-        <rect
-           transform="scale(1,-1)"
-           ry="13.214286"
-           y="-1180.4363"
-           x="-271.23056"
-           height="32"
-           width="128"
-           id="rect4242-4"
-           style="fill:url(#linearGradient4282-6);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4244-8"
-           d="m -255.42807,1151.3406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           style="fill:url(#linearGradient4284-8);fill-opacity:1;stroke:none" />
-        <rect
-           style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-           id="rect4256-6"
-           width="128"
-           height="32"
-           x="-271.23056"
-           y="-1180.4363"
-           ry="13.214286"
-           transform="scale(1,-1)" />
-      </g>
-      <text
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButton.png"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         sodipodi:linespacing="125%"
-         id="text4196"
-         y="1130.1237"
-         x="45.456871"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="1130.1237"
-           x="45.456871"
-           id="tspan4198"
-           sodipodi:role="line">Play </tspan></text>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\playButtonHighlight.png"
-         xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="45.456871"
-         y="1166.1237"
-         id="text4385"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4387"
-           x="45.456871"
-           y="1166.1237">Play </tspan></text>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButton.png"
-         id="g4408-7"
-         transform="translate(-492.64368,71.292445)">
-        <rect
-           ry="13.214286"
-           y="1108.7361"
-           x="495.10562"
-           height="32"
-           width="128"
-           id="rect4230-2"
-           style="fill:url(#linearGradient4270-1);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4232-1"
-           d="m 510.90814,1111.6406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           style="fill:url(#linearGradient4467);fill-opacity:1;stroke:none" />
-      </g>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButtonHighlight.png"
-         id="g4412-4"
-         transform="translate(-492.64368,71.292445)">
-        <rect
-           transform="scale(1,-1)"
-           ry="13.214286"
-           y="-1176.9958"
-           x="494.80698"
-           height="32"
-           width="128"
-           id="rect4246-9"
-           style="fill:url(#linearGradient4286-4);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4248-9"
-           d="m 510.60953,1147.9003 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           style="fill:url(#linearGradient4288-8);fill-opacity:1;stroke:none" />
-        <rect
-           style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-           id="rect4258-0"
-           width="128"
-           height="32"
-           x="494.80698"
-           y="-1176.9958"
-           ry="13.214286"
-           transform="scale(1,-1)" />
-      </g>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButton.png"
-         sodipodi:linespacing="125%"
-         id="text4200"
-         y="1203.6957"
-         x="44.192055"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="1203.6957"
-           x="44.192055"
-           id="tspan4202"
-           sodipodi:role="line">Back</tspan></text>
-      <text
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\backButtonHighlight.png"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="44.192055"
-         y="1241.6957"
-         id="text4543"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4545"
-           x="44.192055"
-           y="1241.6957">Back</tspan></text>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButton.png"
-         id="g4389-4"
-         transform="translate(-99.206033,-4.1501927)">
-        <g
-           id="g4220-0"
-           transform="translate(235.36554,88.893424)">
-          <rect
-             style="fill:url(#linearGradient4262-6);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-             id="rect4222-8"
-             width="128"
-             height="32"
-             x="0"
-             y="1020.3622"
-             ry="13.214286" />
-          <path
-             style="fill:url(#linearGradient4264-5);fill-opacity:1;stroke:none"
-             d="m 15.802525,1023.2667 c -6.9121926,0.02 -12.4810964,3.4655 -12.4810964,7.7439 l 0,2.3376 c 0,-0.5348 0.099896,-1.049 0.2655552,-1.5531 0.1656599,-0.5041 0.3933011,-0.9817 0.7081472,-1.4449 0.6296928,-0.9264 1.5574606,-1.7722 2.6850588,-2.4734 1.1275981,-0.7013 2.4601062,-1.2612 3.9538222,-1.6554 0.746859,-0.197 1.517307,-0.3585 2.330985,-0.4634 0.813678,-0.105 1.673504,-0.1511 2.537528,-0.1536 l 95.894955,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.894955,0.2834 z"
-             id="path4224-8"
-             inkscape:connector-curvature="0" />
-        </g>
-      </g>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButtonHighlight.png"
-         id="g4394-1"
-         transform="translate(-99.206033,-4.1501927)">
-        <rect
-           transform="scale(1,-1)"
-           ry="13.214286"
-           y="-1177.5154"
-           x="235.06694"
-           height="32"
-           width="128"
-           id="rect4238-5"
-           style="fill:url(#linearGradient4278-3);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4240-2"
-           d="m 250.86946,1148.4198 c -6.91219,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26556,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68505,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95383,-1.6554 0.74686,-0.197 1.5173,-0.3585 2.33098,-0.4634 0.81368,-0.105 1.67351,-0.1511 2.53753,-0.1536 l 95.89495,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89495,0.2834 z"
-           style="fill:url(#linearGradient4280-6);fill-opacity:1;stroke:none" />
-        <rect
-           style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-           id="rect4254-3"
-           width="128"
-           height="32"
-           x="235.06694"
-           y="-1177.5154"
-           ry="13.214286"
-           transform="scale(1,-1)" />
-      </g>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButton.png"
-         sodipodi:linespacing="125%"
-         id="text4208"
-         y="1128.8812"
-         x="165.66501"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="1128.8812"
-           x="165.66501"
-           id="tspan4210"
-           sodipodi:role="line">Options</tspan></text>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButton.png"
-         sodipodi:linespacing="125%"
-         id="text4212"
-         y="1204.5483"
-         x="154.25748"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="1204.5483"
-           x="154.25748"
-           id="tspan4214"
-           sodipodi:role="line">Volume Up</tspan></text>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\optionsButtonHighlight.png"
-         xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="165.66501"
-         y="1165.3864"
-         id="text4634"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4636"
-           x="165.66501"
-           y="1165.3864">Options</tspan></text>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButton.png"
-         transform="translate(35.598327,-3.2037724)"
-         id="g4638">
-        <g
-           transform="translate(235.36554,88.893424)"
-           id="g4640">
-          <rect
-             ry="13.214286"
-             y="1020.3622"
-             x="0"
-             height="32"
-             width="128"
-             id="rect4642"
-             style="fill:url(#linearGradient4654);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-          <path
-             inkscape:connector-curvature="0"
-             id="path4644"
-             d="m 15.802525,1023.2667 c -6.9121926,0.02 -12.4810964,3.4655 -12.4810964,7.7439 l 0,2.3376 c 0,-0.5348 0.099896,-1.049 0.2655552,-1.5531 0.1656599,-0.5041 0.3933011,-0.9817 0.7081472,-1.4449 0.6296928,-0.9264 1.5574606,-1.7722 2.6850588,-2.4734 1.1275981,-0.7013 2.4601062,-1.2612 3.9538222,-1.6554 0.746859,-0.197 1.517307,-0.3585 2.330985,-0.4634 0.813678,-0.105 1.673504,-0.1511 2.537528,-0.1536 l 95.894955,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.894955,0.2834 z"
-             style="fill:url(#linearGradient4656);fill-opacity:1;stroke:none" />
-        </g>
-      </g>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButtonHighlight.png"
-         transform="translate(35.598327,-3.2037724)"
-         id="g4646">
-        <rect
-           style="fill:url(#linearGradient4658);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-           id="rect4648"
-           width="128"
-           height="32"
-           x="235.06694"
-           y="-1177.5154"
-           ry="13.214286"
-           transform="scale(1,-1)" />
-        <path
-           style="fill:url(#linearGradient4660);fill-opacity:1;stroke:none"
-           d="m 250.86946,1148.4198 c -6.91219,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26556,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68505,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95383,-1.6554 0.74686,-0.197 1.5173,-0.3585 2.33098,-0.4634 0.81368,-0.105 1.67351,-0.1511 2.53753,-0.1536 l 95.89495,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89495,0.2834 z"
-           id="path4650"
-           inkscape:connector-curvature="0" />
-        <rect
-           transform="scale(1,-1)"
-           ry="13.214286"
-           y="-1177.5154"
-           x="235.06694"
-           height="32"
-           width="128"
-           id="rect4652"
-           style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1" />
-      </g>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButton.png"
-         sodipodi:linespacing="125%"
-         id="text4204"
-         y="1129.6388"
-         x="284.86301"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="1129.6388"
-           x="284.86301"
-           id="tspan4206"
-           sodipodi:role="line">Highscores</tspan></text>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\highScoresButtonHighlight.png"
-         xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="284.86301"
-         y="1165.6388"
-         id="text4662"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4664"
-           x="284.86301"
-           y="1165.6388">Highscores</tspan></text>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeUpButtonHighlight.png"
-         xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="154.25748"
-         y="1240.5483"
-         id="text4666"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4668"
-           x="154.25748"
-           y="1240.5483">Volume Up</tspan></text>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButton.png"
-         id="g4688"
-         transform="translate(-353.33024,71.081942)">
-        <rect
-           ry="13.214286"
-           y="1108.7361"
-           x="625.10565"
-           height="32"
-           width="128"
-           id="rect4690"
-           style="fill:url(#linearGradient4702);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4692"
-           d="m 640.90814,1111.6406 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           style="fill:url(#linearGradient4704);fill-opacity:1;stroke:none" />
-      </g>
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButtonHighlight.png"
-         id="g4694"
-         transform="translate(-353.33024,71.081942)">
-        <rect
-           ry="13.214286"
-           y="-1176.9958"
-           x="-752.80695"
-           height="32"
-           width="128"
-           id="rect4696"
-           style="fill:url(#linearGradient4706);fill-opacity:1;stroke:#000000;stroke-opacity:1"
-           transform="scale(-1,-1)" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4698"
-           d="m 640.60953,1147.9003 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
-           style="fill:url(#linearGradient4708);fill-opacity:1;stroke:none" />
-        <rect
-           transform="scale(-1,-1)"
-           style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
-           id="rect4700"
-           width="128"
-           height="32"
-           x="-752.80695"
-           y="-1176.9958"
-           ry="13.214286" />
-      </g>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButton.png"
-         sodipodi:linespacing="125%"
-         id="text4216"
-         y="1203.5653"
-         x="273.63315"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="1203.5653"
-           x="273.63315"
-           id="tspan4218"
-           sodipodi:role="line">Volume Down</tspan></text>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButtonHighlight.png"
-         xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         x="273.63315"
-         y="1239.5653"
-         id="text4710"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4712"
-           x="273.63315"
-           y="1239.5653">Volume Down</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-873.90015"
+       y="944.96625"
+       id="text4216"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4218"
+         x="-873.90015"
+         y="944.96625">Volume Down</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4710"
+       y="980.96625"
+       x="-873.90015"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\volumeDownButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="980.96625"
+         x="-873.90015"
+         id="tspan4712"
+         sodipodi:role="line">Volume Down</tspan></text>
     <g
        id="g4867"
        transform="translate(-3419.4605,-555.23727)">
@@ -2013,5 +2287,243 @@
          d="m 190.64419,432.69608 c 45.43232,-36.58014 55.6719,-8.44596 64.92008,29.64602 -27.187,-14.54041 -36.91718,-24.58874 -64.92008,-29.64602 z"
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
+    <rect
+       style="fill:url(#linearGradient3453);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect3970-6"
+       width="128"
+       height="32"
+       x="-740.99353"
+       y="922.51801"
+       ry="13.214286"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\quitButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3405-5);fill-opacity:1;stroke:none"
+       d="m -725.19103,925.42254 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+       id="path3972-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\quitButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:url(#linearGradient3384-4);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect3970-8-4"
+       width="128"
+       height="32"
+       x="-741.29218"
+       y="-990.77771"
+       ry="13.214286"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\quitButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3381-1);fill-opacity:1;stroke:none"
+       d="m -725.48964,961.68224 c -6.91219,0.02 -12.48109,3.4655 -12.48109,7.7439 l 0,2.3376 c 0,-0.5348 0.0999,-1.049 0.26555,-1.5531 0.16566,-0.5041 0.3933,-0.9817 0.70815,-1.4449 0.62969,-0.9264 1.55746,-1.7722 2.68506,-2.4734 1.1276,-0.7013 2.46011,-1.2612 3.95382,-1.6554 0.74686,-0.197 1.51731,-0.3585 2.33099,-0.4634 0.81367,-0.105 1.6735,-0.1511 2.53752,-0.1536 l 95.89496,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89496,0.2834 z"
+       id="path3972-2-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\quitButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="scale(1,-1)"
+       ry="13.214286"
+       y="-990.77771"
+       x="-741.29218"
+       height="32"
+       width="128"
+       id="rect4192-3"
+       style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\quitButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3898-8"
+       transform="translate(-739.07784,-174.90582)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\restartButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="13.214286"
+         y="1020.3622"
+         x="0"
+         height="32"
+         width="128"
+         id="rect2985-6"
+         style="fill:url(#linearGradient3761-3);fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2985-9-5"
+         d="m 15.802525,1023.2667 c -6.9121926,0.02 -12.4810964,3.4655 -12.4810964,7.7439 l 0,2.3376 c 0,-0.5348 0.099896,-1.049 0.2655552,-1.5531 0.1656599,-0.5041 0.3933011,-0.9817 0.7081472,-1.4449 0.6296928,-0.9264 1.5574606,-1.7722 2.6850588,-2.4734 1.1275981,-0.7013 2.4601062,-1.2612 3.9538222,-1.6554 0.746859,-0.197 1.517307,-0.3585 2.330985,-0.4634 0.813678,-0.105 1.673504,-0.1511 2.537528,-0.1536 l 95.894955,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.894955,0.2834 z"
+         style="fill:url(#linearGradient3557);fill-opacity:1;stroke:none" />
+    </g>
+    <rect
+       style="fill:url(#linearGradient3414-3);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2985-2-0"
+       width="128"
+       height="32"
+       x="-608.62347"
+       y="845.29401"
+       ry="13.214286"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\unpauseButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3411-3);fill-opacity:1;stroke:none"
+       d="m -592.82099,848.19846 c -6.9122,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.1,-1.049 0.2655,-1.5531 0.1657,-0.5041 0.3933,-0.9817 0.7082,-1.4449 0.6297,-0.9264 1.5574,-1.7722 2.685,-2.4734 1.1276,-0.7013 2.4602,-1.2612 3.9539,-1.6554 0.7468,-0.197 1.5173,-0.3585 2.331,-0.4634 0.8136,-0.105 1.6735,-0.1511 2.5375,-0.1536 l 95.89494,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89494,0.2834 z"
+       id="rect2985-9-1-28"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\unpauseButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:url(#linearGradient3396-7);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2985-20-6"
+       width="128"
+       height="32"
+       x="-739.3764"
+       y="-913.71613"
+       ry="13.214286"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\restartButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3393-1);fill-opacity:1;stroke:none"
+       d="m -723.57394,884.62056 c -6.9122,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.1,-1.049 0.2656,-1.5531 0.1656,-0.5041 0.3933,-0.9817 0.7081,-1.4449 0.6297,-0.9264 1.5575,-1.7722 2.6851,-2.4734 1.1276,-0.7013 2.4601,-1.2612 3.9538,-1.6554 0.7469,-0.197 1.5173,-0.3585 2.331,-0.4634 0.8137,-0.105 1.6735,-0.1511 2.5375,-0.1536 l 95.89495,-0.2834 c 0.864,0 1.7238,0.038 2.5375,0.1386 0.8137,0.1001 1.5841,0.257 2.331,0.4496 1.4937,0.3854 2.8262,0.9375 3.9538,1.632 1.1276,0.6946 2.0554,1.535 2.6851,2.4576 0.3148,0.4614 0.5424,0.9376 0.7081,1.4407 0.1657,0.5031 0.2656,1.0167 0.2656,1.5515 l 0,-2.3376 c 0,-4.2784 -5.569,-7.6905 -12.4811,-7.6701 l -95.89495,0.2834 z"
+       id="rect2985-9-8-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\restartButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:url(#linearGradient3390-8);fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2985-2-9-2"
+       width="128"
+       height="32"
+       x="-608.92218"
+       y="-913.55377"
+       ry="13.214286"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\unpauseButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:url(#linearGradient3387-2);fill-opacity:1;stroke:none"
+       d="m -593.11959,884.45816 c -6.9122,0.02 -12.4811,3.4655 -12.4811,7.7439 l 0,2.3376 c 0,-0.5348 0.1,-1.049 0.2655,-1.5531 0.1657,-0.5041 0.3933,-0.9817 0.7082,-1.4449 0.6297,-0.9264 1.5574,-1.7722 2.685,-2.4734 1.1276,-0.7013 2.4601,-1.2612 3.9539,-1.6554 0.7468,-0.197 1.5173,-0.3585 2.3309,-0.4634 0.8137,-0.105 1.6735,-0.1511 2.5376,-0.1536 l 95.89493,-0.2834 c 0.86401,0 1.72384,0.038 2.53752,0.1386 0.81368,0.1001 1.58412,0.257 2.33099,0.4496 1.49372,0.3854 2.82622,0.9375 3.95381,1.632 1.12761,0.6946 2.05538,1.535 2.68507,2.4576 0.31484,0.4614 0.54249,0.9376 0.70815,1.4407 0.16565,0.5031 0.26556,1.0167 0.26556,1.5515 l 0,-2.3376 c 0,-4.2784 -5.56892,-7.6905 -12.4811,-7.6701 l -95.89493,0.2834 z"
+       id="rect2985-9-1-2-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\unpauseButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="scale(1,-1)"
+       ry="13.214286"
+       y="-913.71613"
+       x="-739.3764"
+       height="32"
+       width="128"
+       id="rect4188-8"
+       style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\restartButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="scale(1,-1)"
+       ry="13.214286"
+       y="-913.55377"
+       x="-608.92218"
+       height="32"
+       width="128"
+       id="rect4190-6"
+       style="fill:#ffffff;fill-opacity:0.19607843;stroke:#000000;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\unpauseButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-706.73975"
+       y="869.71783"
+       id="text3656"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\restartButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3658"
+         x="-706.73975"
+         y="869.71783">Restart</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-697.73505"
+       y="947.1084"
+       id="text3660"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\quitButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3662"
+         x="-697.73505"
+         y="947.1084">Quit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-584.87677"
+       y="868.63452"
+       id="text3652-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\unpauseButton.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3654-0"
+         x="-584.87677"
+         y="868.63452">Unpause</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3689"
+       y="904.63452"
+       x="-584.87677"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\unpauseButtonHighlight.png"><tspan
+         y="904.63452"
+         x="-584.87677"
+         id="tspan3691"
+         sodipodi:role="line">Unpause</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3693"
+       y="905.71783"
+       x="-706.73975"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\restartButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="905.71783"
+         x="-706.73975"
+         id="tspan3695"
+         sodipodi:role="line">Restart</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3697"
+       y="983.1084"
+       x="-697.73505"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Dan\Stuff\Work\g51fse\git\assets\images\menu\quitButtonHighlight.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="983.1084"
+         x="-697.73505"
+         id="tspan3699"
+         sodipodi:role="line">Quit</tspan></text>
   </g>
 </svg>
