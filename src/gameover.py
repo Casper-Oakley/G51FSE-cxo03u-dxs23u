@@ -11,6 +11,7 @@ class Gameover:
 
 	def drawMenu(self,screen,score):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
+		##logic same as for main menu
 		if self.selectLocation == 0:
 			self.playButton.isHighlight=True
 			self.highScoresButton.isHighlight=False

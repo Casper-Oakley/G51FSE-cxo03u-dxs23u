@@ -15,6 +15,7 @@ class Options:
 	def drawMenu(self,screen,currentVolume):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
 		screen.blit(self.background,(0,0))
+		##logic for selecting option by keyboard
 		if self.selectLocation == 0:
 			self.volumeUpButton.isHighlight=True
 			self.volumeDownButton.isHighlight=False

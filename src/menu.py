@@ -5,6 +5,7 @@ from button import Button
 class Menu:
 
 	def __init__(self):
+		##on load, initiate all images and create new buttons
 		self.background=pygame.image.load("../assets/images/menu/menuBackground.png")
 		self.title=pygame.image.load("../assets/images/menu/menuTitle.png")
 		self.playButton=Button(256,200,"../assets/images/menu/playButton.png","../assets/images/menu/playButtonHighlight.png")
@@ -17,6 +18,7 @@ class Menu:
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
 		screen.blit(self.background,(0,0))
 		screen.blit(self.title,(40,20))
+		##logic for selecting option by keyboard
 		if self.selectLocation == 0:
 			self.playButton.isHighlight=True
 			self.optionsButton.isHighlight=False
@@ -42,6 +44,7 @@ class Menu:
 		self.highScoresButton.drawButton(screen)
 		self.quitButton.drawButton(screen)
 
+##function for keyboard selection logic
 	def keyPress(self,key):
 			if key[K_w] == 1:
 				self.selectLocation -= 1

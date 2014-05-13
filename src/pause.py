@@ -12,6 +12,7 @@ class Pause:
 
 	def drawMenu(self,screen):
 		pygame.draw.rect(screen,(0,0,0),(0,0,640,480))
+		##logic same as for main menu
 		if self.selectLocation == 0:
 			self.restartButton.isHighlight=True
 			self.unpauseButton.isHighlight=False

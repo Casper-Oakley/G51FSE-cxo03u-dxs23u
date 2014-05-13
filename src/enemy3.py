@@ -14,6 +14,7 @@ class Enemy3:
 
 	def load(self,screen):
 		## Standard image loading and collision box setup
+		##Animation cycle list, same as for player
 		self.enemyRunCycleList = []
 		self.enemyRunCycleList.append(pygame.image.load("../assets/images/enemy/wingedChainsaw1a.png").convert_alpha())
 		self.enemyRunCycleList.append(pygame.image.load("../assets/images/enemy/wingedChainsaw1b.png").convert_alpha())

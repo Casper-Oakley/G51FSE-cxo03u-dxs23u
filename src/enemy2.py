@@ -22,6 +22,7 @@ class Enemy2:
 	def draw(self,screen,x,y):
 		self.jump()
 		if not self.isDead:
+			##if statement for bounce animation
 			if self.yOffset > 10:
 				screen.blit(self.imageAir,(x,y-self.yOffset))
 			else:
@@ -33,6 +34,7 @@ class Enemy2:
 		self.enemyRectangle.x = -50
 		self.enemyRectangle.y = -50
 
+##Jump function to give pogo enemies realistic jumps
 	def jump(self):
 		if not self.isJump:
 			self.vSpeed = 24
