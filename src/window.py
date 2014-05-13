@@ -8,9 +8,7 @@ from world import World
 from hud import Hud
 from pygame.locals import *
 
-
 class Window:
-
 	def __init__(self):
 		self.width=640
 		self.height=480
@@ -34,7 +32,6 @@ class Window:
 		self.screen.set_colorkey(self.backgroundColor)
 		self.hud.loadHUD(self.screen)
 		self.loadMenu()
-
 	def loadMenu(self):
 		self.inGame = False
 		self.inMenu = True
@@ -43,7 +40,6 @@ class Window:
 		self.inGameover = False
 		self.inPause=False
 		self.menu = Menu()
-
 	def loadOptions(self):
 		self.inGame = False
 		self.inMenu = False
@@ -52,7 +48,6 @@ class Window:
 		self.inGameover = False
 		self.inPause=False
 		self.optionsMenu = Options(self.currentVolume)
-
 	def loadHighscores(self):
 		self.inGame = False
 		self.inMenu = False
@@ -61,7 +56,6 @@ class Window:
 		self.inGameover = False
 		self.inPause=False
 		self.highscoresMenu = Highscores()
-
 	def loadWorld(self):
 		self.inGame = True
 		self.inMenu = False
@@ -70,7 +64,6 @@ class Window:
 		self.inGameover = False
 		self.inPause=False
 		self.world = World(self.screen,self.currentVolume)
-
 	def loadGameover(self):
 		self.inGame = False
 		self.inMenu = False
@@ -79,7 +72,6 @@ class Window:
 		self.inGameover = True
 		self.inPause=False
 		self.gameoverMenu = Gameover()
-
 	def loadPause(self):
 		self.inGame = False
 		self.inMenu = False
@@ -90,7 +82,7 @@ class Window:
 		self.pauseMenu = Pause()
 #main game loop, controls world and menu interaction, along with frame rate
 	def gameLoop(self):
-		pygame.display.set_caption("TITLE")
+		pygame.display.set_caption("Joe Schmoe Vs the Snow Bros")
 		while self.exiting == False:
 			self.getButtonPress()
 			self.counter+=1
@@ -119,7 +111,6 @@ class Window:
 			self.Clock.tick(40)
 			self.screen.fill(self.backgroundColor)
 		pygame.quit()
-
 #draws the correct menu
 	def draw(self):
 		self.screen.fill(self.backgroundColor)
@@ -136,7 +127,6 @@ class Window:
 			self.gameoverMenu.drawMenu(self.screen,self.world.score)
 		elif self.inPause:
 			self.pauseMenu.drawMenu(self.screen)
-
 #recieves input and passes it to appropriate location
 	def getButtonPress(self):
 		if self.inGame:
