@@ -26,11 +26,11 @@ class Levelplat:
 				self.nEnemy1-=1
 				## Generate the enemy
 				enemyGenType = random.randint(0,2)
-				if score > 10000 and enemyGenType==2:
+				if score > 12000 and enemyGenType==2:
 					tempEnemy=Enemy3(self.x+i*64,self.y-96,screen)
-				elif score > 10000 and enemyGenType==1:
+				elif score > 12000 and enemyGenType==1:
 					tempEnemy=Enemy2(self.x+i*64,self.y-96,screen)
-				elif score > 5000 and score <= 10000 and random.randint(0,1) == 0:
+				elif score > 6000 and score <= 12000 and random.randint(0,1) == 0:
 					tempEnemy=Enemy2(self.x+i*64,self.y-96,screen)
 				else:
 					tempEnemy=Enemy1(self.x+i*64,self.y-96,screen)
