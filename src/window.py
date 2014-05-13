@@ -161,6 +161,8 @@ class Window:
 								self.loadOptions()
 							elif self.menu.highScoresButton.isHighlight:
 								self.loadHighscores()
+							elif self.menu.quitButton.isHighlight:
+								pygame.quit()
 						else:
 							self.menu.keyPress(key)
 					if event.type == pygame.MOUSEBUTTONDOWN:
@@ -171,6 +173,8 @@ class Window:
 							self.loadOptions()
 						elif self.menu.highScoresButton.mousePress(pygame.mouse.get_pressed()):
 							self.loadHighscores()
+						elif self.menu.quitButton.mousePress(pygame.mouse.get_pressed()):
+							pygame.quit()
 			#send simple input and recieve output from options
 			elif self.inOptions:
 				for event in pygame.event.get():

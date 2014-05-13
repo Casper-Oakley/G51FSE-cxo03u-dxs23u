@@ -1,6 +1,8 @@
 import pygame,random
 from levelblock import Levelblock
 from enemy1 import Enemy1
+from enemy2 import Enemy2
+from enemy3 import Enemy3
 
 class Levelplat:
 
@@ -8,14 +10,14 @@ class Levelplat:
 		self.x=0
 		self.y=0
 		self.size=size
-		self.nEnemy1=0
 		self.x=x
 		self.y=y
 		self.nEnemy1=nEnemy1
 		self.platList=[0]*12
 		self.enemyList=[]
 
-	def loadPlatform(self,screen):
+	def loadPlatform(self,screen,score):
+		random.seed()
 		for i in range(self.size):
 			## Generate a single block 
 			blockTemp = Levelblock(self.x+i*64,self.y,2,0,-1)
@@ -23,7 +25,15 @@ class Levelplat:
 			if self.nEnemy1 > 0 and random.randint(1,self.size) > 8:
 				self.nEnemy1-=1
 				## Generate the enemy
-				tempEnemy=Enemy1(self.x+i*64,self.y-96,screen)
+				enemyGenType = random.randint(0,2)
+				if score > 12000 and enemyGenType==2:
+					tempEnemy=Enemy3(self.x+i*64,self.y-96,screen)
+				elif score > 12000 and enemyGenType==1:
+					tempEnemy=Enemy2(self.x+i*64,self.y-96,screen)
+				elif score > 6000 and score <= 12000 and random.randint(0,1) == 0:
+					tempEnemy=Enemy2(self.x+i*64,self.y-96,screen)
+				else:
+					tempEnemy=Enemy1(self.x+i*64,self.y-96,screen)
 				## Saves the position the enemy should be drawn in ... somehow
 				blockTemp.enemy1ID=len(self.enemyList)
 				tempEnemy.load(screen)

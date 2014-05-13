@@ -9,7 +9,6 @@ class World:
 		self.currentX=0
 		self.currentY=0
 		self.score=0
-		self.enemy1List=[]
 		self.speed=8
 		self.isGame=True
 		self.loadLevel(screen,currentVolume)
@@ -32,10 +31,6 @@ class World:
 		screen.blit(self.baseBackgroundImage,(0,0))
 		screen.blit(self.backgroundImage,(self.currentX, self.currentY))
 		
-
-		## Draw enemies
-		for i in range(len(self.enemy1List)):
-			self.enemy1List[i].draw(screen)
 
 		## Draw character
 		self.character.draw(screen)
@@ -64,18 +59,8 @@ class World:
 		else:
 			self.character.applyGravity(self.levelList[1].y)
 		## Move the enemies forward
-		for i in range(len(self.enemy1List)):
-			self.enemy1List[i].move()
 		self.score+=int(self.speed/8)
 		self.speed+=0.01
-
-#generate an enemy and store it in the enemy list
-	def genEnemy1(self,screen,x,y):
-		## create an enemy1 (snowman)
-		tempEn = Enemy1(x,y,screen)
-		self.enemy1List.append(tempEn)
-		
-	
 
 ##generate the initial level blocks locations and store them
 	def genLevel(self,levelsize,screen):
@@ -87,7 +72,7 @@ class World:
 		blockTemp = Levelplat(screen,0,530,2,0)
 		self.levelList.append(blockTemp)
 		## Load the first platform
-		self.levelList[0].loadPlatform(screen)
+		self.levelList[0].loadPlatform(screen,self.score)
 		i=2
 #loop to find appropriate heights for each level block
 		while i<levelsize:
@@ -98,7 +83,7 @@ class World:
 			elif yRan > 430:
 				yRan -= 100
 			## Create next platform
-			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12),random.randint(0,4))
+			blockTemp = Levelplat(screen,0,yRan,random.randint(8,12),random.randint(0,4+int(self.score/5000)))
 			self.levelList.append(blockTemp)
 			## Every other platform is 530 heigh, and partly based on score.
 			blockTemp = Levelplat(screen,0,530,random.randint(2+min(self.score/1000,2),4+min(self.score/500,3)),0)
@@ -109,7 +94,7 @@ class World:
 #load the first set of blocks inc assets
 		for i in range(5):
 			self.levelList[i].x = xRange
-			self.levelList[i].loadPlatform(screen)
+			self.levelList[i].loadPlatform(screen,self.score)
 			xRange+=self.levelList[i].size*64
 
 #draw the level blocks, including removing old ones and loading new ones
@@ -119,7 +104,7 @@ class World:
 			## Enemies
 			self.levelList[0].enemyList=[]
 			self.levelList.pop(0)
-			self.levelList[4].loadPlatform(screen)
+			self.levelList[4].loadPlatform(screen,self.score)
 			xRange = 0
 			for i in range(4):
 				xRange+=self.levelList[i].size*64
@@ -140,10 +125,16 @@ class World:
 					## If they collide
 						## Remove the bullet
 						self.character.bulletList.remove(i)
+						##score based on type of enemy
+						if k.__class__.__name__ == "Enemy1":
+							self.score+=250
+						elif k.__class__.__name__ == "Enemy2":
+							self.score+=500
+						elif k.__class__.__name__ == "Enemy3":
+							self.score+=750
 						## Kill the enemy
 						k.isDead = True
 						k.kill()
-						self.score+=50
 						break
 
 #test if the player has collided with an enemy
