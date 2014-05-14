@@ -71,12 +71,11 @@ class Character:
 			self.invulnTimer+=1
 		else:
 			self.invulnTimer+=1
-		## After aperiod of blinking, stop and become vunerable.
+		## After a period of blinking, stop and become vulnerable.
 		if self.invulnTimer > 60 and self.isInvuln:
 			self.isInvuln=False
 			self.invulnTimer=0
-		
-
+			
 #moves the character based off gravity, taking into account if jumping
 	def applyGravity(self,currentLow):
 		## if character is below the floor
@@ -87,7 +86,7 @@ class Character:
 				self.landSound.play()
 			## snap the character to the floor
 			self.currentY=currentLow-self.charImage.get_height()
-			## reset jumping and vspeed
+			## reset jumping and v-speed
 			self.vSpeed = 0
 			self.isJump = False
 		else:
@@ -106,7 +105,7 @@ class Character:
 			self.jumpSound.set_volume(self.currentVolume)
 			self.jumpSound.play()
 
-#recieves input and acts accordingly
+#receives input and acts accordingly
 	def keyPress(self,key):
 		if key[K_w] == 1:
 			self.jump()
@@ -117,10 +116,11 @@ class Character:
 		self.angle=-math.degrees(math.atan2((pygame.mouse.get_pos()[1]-self.currentY-64),(pygame.mouse.get_pos()[0]-self.currentX-64)))
 		## Rotate the arm image
 		self.charArmImageRot = pygame.transform.rotate(self.charArmImageMaster,self.angle)
-		## perform some rather unplesant maths to make the arm rotate around the characters shoulder properly.
+		## perform some rather unpleasant maths to make the arm rotate around the characters shoulder properly.
 		self.ab = (72*(math.cos(math.radians(self.angle%90))+math.sin(math.radians(self.angle%90))))-72
 		xOffset = -self.ab+1*math.cos(math.radians(-self.angle))+3
-		yOffset = -self.ab+1*math.sin(math.radians(-self.angle))-15		## draw the rotated arm image in position
+		yOffset = -self.ab+1*math.sin(math.radians(-self.angle))-15		
+		## draw the rotated arm image in position
 		screen.blit(self.charArmImageRot,(self.currentX+xOffset,self.currentY+yOffset))
 
 #fires a bullet such that the bullet's start location and angle it moves at is from the arm

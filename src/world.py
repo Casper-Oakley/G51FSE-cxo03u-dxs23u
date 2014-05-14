@@ -13,7 +13,7 @@ class World:
 		self.isGame=True
 		self.loadLevel(screen,currentVolume)
 
-#on load method to generate a level inc all assets
+#on load method to generate a level including all assets
 	def loadLevel(self, screen, currentVolume):
 		## Standard image loading
 		self.backgroundImage=pygame.image.load("../assets/images/world/iceBackground.png").convert()
@@ -25,7 +25,7 @@ class World:
 		## Draw the level once
 		self.drawLevel(screen)
 
-#function to draw level inc contents
+#function to draw level including contents
 	def drawLevel(self, screen):
 		## Draw background
 		screen.blit(self.baseBackgroundImage,(0,0))
@@ -89,9 +89,8 @@ class World:
 			blockTemp = Levelplat(screen,0,530,random.randint(2+min(self.score/1000,2),4+min(self.score/500,3)),0)
 			self.levelList.append(blockTemp)
 			i+=2
-		## !!! Not sure what this does
 		xRange=0
-#load the first set of blocks inc assets
+#load the first set of blocks including assets
 		for i in range(5):
 			self.levelList[i].x = xRange
 			self.levelList[i].loadPlatform(screen,self.score)
@@ -99,7 +98,7 @@ class World:
 
 #draw the level blocks, including removing old ones and loading new ones
 	def drawBlocksOnScreen(self,screen):
-		## Remove a level when it falls totaly off the screen and adds a new one on
+		## Remove a level when it falls totally off the screen and adds a new one on
 		if (self.levelList[0].x+self.levelList[0].size*64) < 0:
 			## Enemies
 			self.levelList[0].enemyList=[]
@@ -109,7 +108,7 @@ class World:
 			for i in range(4):
 				xRange+=self.levelList[i].size*64
 			self.levelList[4].x=xRange
-		## Draw the blocks onscreen, then move them
+		## Draw the blocks on-screen, then move them
 		for i in range(5):
 			self.levelList[i].drawBlocks(screen)
 			self.levelList[i].moveBlocks(self.speed)
@@ -140,7 +139,7 @@ class World:
 #test if the player has collided with an enemy
 	def playerCollide(self):
 		for i in range(5):
-			## For all the enemis
+			## For all the enemies
 			for j in self.levelList[i].enemyList:
 				if j.enemyRectangle.colliderect(self.character.charRectangle):
 				## If they collide with the player

@@ -34,7 +34,7 @@ class Levelplat:
 					tempEnemy=Enemy2(self.x+i*64,self.y-96,screen)
 				else:
 					tempEnemy=Enemy1(self.x+i*64,self.y-96,screen)
-				## Saves the position the enemy should be drawn in ... somehow
+				## Saves the position the enemy should be drawn in
 				blockTemp.enemy1ID=len(self.enemyList)
 				tempEnemy.load(screen)
 				self.enemyList.append(tempEnemy)

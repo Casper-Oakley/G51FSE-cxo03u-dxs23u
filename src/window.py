@@ -92,7 +92,7 @@ class Window:
 				self.inGame=self.world.isGame
 				#if game over
 				if not self.inGame:
-#rewrite sorted file with top 10 songs
+					#rewrite sorted file with top 10 songs
 					highscores = open("../highscores.txt","r")
 					highscoreStore = []
 					for line in highscores:
@@ -112,7 +112,7 @@ class Window:
 			self.Clock.tick(40)
 			self.screen.fill(self.backgroundColor)
 		pygame.quit()
-#draws the correct menu
+	#draws the correct menu
 	def draw(self):
 		self.screen.fill(self.backgroundColor)
 		if self.inGame:
@@ -177,7 +177,7 @@ class Window:
 							self.loadHighscores()
 						elif self.menu.quitButton.mousePress(pygame.mouse.get_pressed()):
 							pygame.quit()
-			#send simple input and recieve output from options, changing volume
+			#send simple input and receive output from options, changing volume
 			elif self.inOptions:
 				for event in pygame.event.get():
 					if event.type == pygame.QUIT:
@@ -206,7 +206,7 @@ class Window:
 								self.currentVolume-=0.1
 						elif self.optionsMenu.backButton.mousePress(pygame.mouse.get_pressed()):
 							self.loadMenu()
-			#send simple input and recieve output from the highscores menu
+			#send simple input and receive output from the high-scores menu
 			elif self.inHighscores:
 				for event in pygame.event.get():
 					if event.type == pygame.QUIT:
@@ -221,7 +221,7 @@ class Window:
 					if event.type == pygame.MOUSEBUTTONDOWN:
 						if self.highscoresMenu.backButton.mousePress(pygame.mouse.get_pressed()):
 							self.loadMenu()
-			#send simple input and recieve output from the gameover screen
+			#send simple input and receive output from the game-over screen
 			elif self.inGameover:
 				for event in pygame.event.get():
 					if event.type == pygame.QUIT:
@@ -242,7 +242,7 @@ class Window:
 							self.loadWorld()
 						elif self.gameoverMenu.highScoresButton.mousePress(pygame.mouse.get_pressed()):
 							self.loadHighscores()
-			#send simple input and recieve output from the pause menu
+			#send simple input and receive output from the pause menu
 			elif self.inPause:
 				for event in pygame.event.get():
 					if event.type == pygame.QUIT:
@@ -269,5 +269,5 @@ class Window:
 						elif self.pauseMenu.unpauseButton.mousePress(pygame.mouse.get_pressed()):
 							self.inGame = True
 							self.inPause = False
-			#reset the button cooldown counter
+			#reset the button cool down counter
 			self.counter = 0
